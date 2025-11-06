@@ -1,0 +1,148 @@
+{
+  "responsive-layout.desktop#home-navegar-categorias": {
+    "children": ["toggle-layout#home-navegar-categorias"]
+  },
+  "responsive-layout.mobile#home-navegar-categorias": {
+    "children": ["toggle-layout#home-navegar-categorias"]
+  },
+  "toggle-layout#home-navegar-categorias": {
+    "title": "Toggle - Navegar Categorias",
+    "children": ["flex-layout.row#home-navegar-categorias"]
+  },
+  "flex-layout.row#home-navegar-categorias": {
+    "title": "Navegar Categorias Container",
+    "children": ["flex-layout.col#home-navegar-categorias"],
+    "props": { "blockClass": ["home-section", "home-navegar-categorias"] }
+  },
+  "flex-layout.col#home-navegar-categorias": {
+    "children": [
+      // "rich-text#home-navegar-categorias",
+      "list-context.info-card-list#home-navegar-categorias"
+    ],
+    "props": { "blockClass": ["home-section", "home-navegar-categorias"] }
+  },
+  "rich-text#home-navegar-categorias": {
+    "title": "Title - Navegar Categorias",
+    "props": {
+      "text": "### Navegue *por categorias*",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-navegar-categorias"]
+    }
+  },
+  "list-context.info-card-list#home-navegar-categorias": {
+    "title": "Itens - Navegar Categorias",
+    "children": ["slider-layout#home-navegar-categorias"],
+    "props": {
+      "infoCards": [
+        {
+          "id": "home-navegar-categorias-1",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Lojas Físicas",
+          "callToActionUrl": "/institucional/nossas-lojas",
+          "imageActionUrl": "/institucional/nossas-lojas",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/card-lf.png?v=638693640321500000"
+        },
+        {
+          "id": "home-navegar-categorias-2",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Vestidos",
+          "callToActionUrl": "/roupas-por-categoria/vestidos",
+          "imageActionUrl": "/roupas-por-categoria/vestidos",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Vestido.jpg?v=638542461004400000"
+        },
+        {
+          "id": "home-navegar-categorias-3",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Moda Trabalho",
+          "callToActionUrl": "/roupas-para-trabalho",
+          "imageActionUrl": "/roupas-para-trabalho",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/ModaTrabalho-cards1-instagram.jpg?v=638542578624400000"
+        },
+        {
+          "id": "home-navegar-categorias-4",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Blusas",
+          "callToActionUrl": "/roupas-por-categoria/blusas",
+          "imageActionUrl": "/roupas-por-categoria/blusas",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Blusas-cards-instagram.jpg?v=638542495291770000"
+        },
+        {
+          "id": "home-navegar-categorias-5",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Acessórios",
+          "callToActionUrl": "/acessorios",
+          "imageActionUrl": "/acessorios",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Acessorios-cards-instagram.jpg?v=638542496162870000"
+        },
+        {
+          "id": "home-navegar-categorias-6",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Inverno",
+          "callToActionUrl": "/inverno",
+          "imageActionUrl": "/inverno",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Inverno-cards-instagram.jpg?v=638542497155600000"
+        },
+        {
+          "id": "home-navegar-categorias-7",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Conjuntos",
+          "callToActionUrl": "/roupas-por-categoria/conjuntos",
+          "imageActionUrl": "/roupas-por-categoria/conjuntos",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Conjuntos-cards-instagram.jpg?v=638542500690300000"
+        },
+        {
+          "id": "home-navegar-categorias-8",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "callToActionMode": "link",
+          "callToActionText": "Moda Evangélica",
+          "callToActionUrl": "/moda-modesta",
+          "imageActionUrl": "/moda-modesta",
+          "imageUrl": "https://onlauri.vteximg.com.br/arquivos/Saias-cards-instagram.jpg?v=638542608110870000"
+        }
+      ]
+    }
+  },
+  "slider-layout#home-navegar-categorias": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 4,
+        "phone": 4
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "centerModeSlidesGap": 5,
+      "blockClass": ["default", "home-navegar-categorias"]
+    }
+  }
+}

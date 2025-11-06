@@ -1,0 +1,54 @@
+{
+  // Mais vendidos
+  "toggle-layout#home-shelf-mais-vendidos": {
+    "title": "Toggle - Shelf Mais Vendidos",
+    "children": ["flex-layout.row#home-shelf-mais-vendidos"]
+  },
+  "flex-layout.row#home-shelf-mais-vendidos": {
+    "title": "Shelf",
+    "children": ["flex-layout.col#home-shelf-mais-vendidos"],
+    "props": { "blockClass": ["home-section", "home-shelf-mais-vendidos"] }
+  },
+  "flex-layout.col#home-shelf-mais-vendidos": {
+    "children": [
+      "rich-text#home-shelf-mais-vendidos",
+      "list-context.product-list#default-shelf"
+    ],
+    "props": { "rowGap": 0, "blockClass": "home-shelf-mais-vendidos" }
+  },
+  "rich-text#home-shelf-mais-vendidos": {
+    "title": "Title - Shelf",
+    "props": {
+      "text": "### Mais Vendidos",
+       "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-shelf-mais-vendidos"]
+    }
+  },
+  // Preferidas
+  "toggle-layout#home-shelf-preferidas": {
+    "title": "Toggle - Shelf Preferidas",
+    "children": ["flex-layout.row#home-shelf-preferidas"]
+  },
+  "flex-layout.row#home-shelf-preferidas": {
+    "title": "Shelf",
+    "children": ["flex-layout.col#home-shelf-preferidas"],
+    "props": { "blockClass": ["home-section", "home-shelf-preferidas"] }
+  },
+  "flex-layout.col#home-shelf-preferidas": {
+    "children": [
+      "rich-text#home-shelf-preferidas",
+      "list-context.product-list#default-shelf"
+    ],
+    "props": { "rowGap": 0, "blockClass": "home-shelf-preferidas" }
+  },
+  "rich-text#home-shelf-preferidas": {
+    "title": "Title - Shelf",
+    "props": {
+      "text": "### As preferidas",
+       "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-shelf-preferidas"]
+    }
+  }
+}

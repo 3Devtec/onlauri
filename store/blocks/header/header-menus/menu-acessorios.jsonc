@@ -1,0 +1,279 @@
+{
+  "menu-item#header-acessorios": {
+    "props": {
+      "id": "menu-item-acessorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      },
+      "blockClass": "header-desktop"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#acessorios"]
+  },
+  "vtex.menu@2.x:submenu#acessorios": {
+    "children": ["flex-layout.row#header-submenu-acessorios"],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-submenu-acessorios": {
+    "children": [
+      "toggle-layout#header-submenu-acessorios",
+      "image#header-submenu-acessorios"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu
+  "toggle-layout#header-submenu-acessorios": {
+    "title": "Toggle - Coluna",
+    "children": ["vtex.menu@2.x:menu#header-submenu-acessorios"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-acessorios": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios",
+            "noFollow": false,
+            "tagTitle": "Acessórios",
+            "text": "Acessórios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/aromas",
+            "noFollow": false,
+            "tagTitle": "Aromas",
+            "text": "Aromas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/bolsas",
+            "noFollow": false,
+            "tagTitle": "Bolsas e Clutch",
+            "text": "Bolsas e Clutch"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/cintos",
+            "noFollow": false,
+            "tagTitle": "Cintos",
+            "text": "Cintos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/relogio",
+            "noFollow": false,
+            "tagTitle": "Relógios",
+            "text": "Relógios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/sapatos",
+            "noFollow": false,
+            "tagTitle": "Sapatos",
+            "text": "Sapatos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/semijoias",
+            "noFollow": false,
+            "tagTitle": "Semijoias e Bijoux",
+            "text": "Semijoias e Bijoux"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tudo-em-beleza",
+            "noFollow": false,
+            "tagTitle": "Tudo em Beleza",
+            "text": "Tudo em Beleza"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/oculos",
+            "noFollow": false,
+            "tagTitle": "Óculos",
+            "text": "Óculos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // image
+  "image#header-submenu-acessorios": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/431024/Menu-Acessórios.jpg?v=638237509929470000",
+      "link": {
+        "url": "/"
+      },
+      "maxWidth": "360",
+      "maxHeight": "542",
+      "blockClass": "header-submenu"
+    }
+  },
+  // Menu mobile
+  "menu-item#header-drawer-acessorios": {
+    "props": {
+      "id": "menu-item-header-drawer-acessorios",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Acessórios",
+        "text": "Acessórios"
+      },
+      "blockClass": "header-drawer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#acessorios"]
+  },
+  "vtex.menu@2.x:submenu.accordion#acessorios": {
+    "children": ["vtex.menu@2.x:menu#header-submenu-acessorios-mob"],
+    "props": {
+      "blockClass": "header-drawer"
+    }
+  },
+  "vtex.menu@2.x:menu#header-submenu-acessorios-mob": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/aromas",
+            "noFollow": false,
+            "tagTitle": "Aromas",
+            "text": "Aromas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/bolsas",
+            "noFollow": false,
+            "tagTitle": "Bolsas e Clutch",
+            "text": "Bolsas e Clutch"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/cintos",
+            "noFollow": false,
+            "tagTitle": "Cintos",
+            "text": "Cintos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/relogio",
+            "noFollow": false,
+            "tagTitle": "Relógios",
+            "text": "Relógios"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/sapatos",
+            "noFollow": false,
+            "tagTitle": "Sapatos",
+            "text": "Sapatos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/semijoias",
+            "noFollow": false,
+            "tagTitle": "Semijoias e Bijoux",
+            "text": "Semijoias e Bijoux"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/tudo-em-beleza",
+            "noFollow": false,
+            "tagTitle": "Tudo em Beleza",
+            "text": "Tudo em Beleza"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/acessorios/oculos",
+            "noFollow": false,
+            "tagTitle": "Óculos",
+            "text": "Óculos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": ["header-submenu", "header-submenu-mob"]
+    }
+  }
+}

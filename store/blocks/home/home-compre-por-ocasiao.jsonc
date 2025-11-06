@@ -1,0 +1,124 @@
+{
+  "toggle-layout#home-compre-por-ocasiao": {
+    "title": "Toggle - Compre por Ocasião",
+    "children": ["flex-layout.row#home-compre-por-ocasiao-container"]
+  },
+  "flex-layout.row#home-compre-por-ocasiao-container": {
+    "children": ["flex-layout.col#home-compre-por-ocasiao-container"],
+    "props": {
+      "blockClass": ["home-section", "home-compre-por-ocasiao"]
+    }
+  },
+  "flex-layout.col#home-compre-por-ocasiao-container": {
+    "children": [
+      "rich-text#home-compre-por-ocasiao",
+      "responsive-layout.desktop#home-compre-por-ocasiao",
+      "responsive-layout.mobile#home-compre-por-ocasiao"
+    ],
+    "props": {
+      "rowGap": 4,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["home-compre-por-ocasiao"]
+    }
+  },
+  "rich-text#home-compre-por-ocasiao": {
+    "title": "Titulo - Compre por Ocasião",
+    "props": {
+      "text": "### Compre por Ocasião",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-compre-por-ocasiao"]
+    }
+  },
+  "responsive-layout.desktop#home-compre-por-ocasiao": {
+    "title": "Desktop - Compre por Ocasião",
+    "children": ["flex-layout.row#home-compre-por-ocasiao-desk"]
+  },
+  "flex-layout.row#home-compre-por-ocasiao-desk": {
+    "children": ["flex-layout.col#home-compre-por-ocasiao-desk"],
+    "props": {
+      "blockClass": ["home-compre-por-ocasiao-desk"]
+    }
+  },
+  "flex-layout.col#home-compre-por-ocasiao-desk": {
+    "children": [
+      "image#home-compre-por-ocasiao-desk",
+      "flex-layout.row#home-compre-por-ocasiao-desk-double"
+    ],
+    "props": {
+      "rowGap": 4,
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["home-compre-por-ocasiao-desk"]
+    }
+  },
+  "image#home-compre-por-ocasiao-desk": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/989886/1170X585%20-%20Moda%20Festag.png?v=638641938513730000",
+      "blockClass": "home-compre-por-ocasiao-desk"
+    }
+  },
+  "flex-layout.row#home-compre-por-ocasiao-desk-double": {
+    "children": [
+      "image#home-compre-por-ocasiao-desk-double-1",
+      "image#home-compre-por-ocasiao-desk-double-2"
+    ],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["home-compre-por-ocasiao-desk-double"]
+    }
+  },
+  "image#home-compre-por-ocasiao-desk-double-1": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/989892/580x375%20-%20Acesso%CC%81riossss.png?v=638641963118630000",
+      "blockClass": [
+        "home-compre-por-ocasiao-desk",
+        "home-compre-por-ocasiao-desk-double"
+      ]
+    }
+  },
+  "image#home-compre-por-ocasiao-desk-double-2": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/989893/580x375%20-%20Conjuntossss.png?v=638641963387400000",
+      "blockClass": [
+        "home-compre-por-ocasiao-desk",
+        "home-compre-por-ocasiao-desk-double"
+      ]
+    }
+  },
+  "responsive-layout.mobile#home-compre-por-ocasiao": {
+    "title": "Mobile - Compre por Ocasião",
+    "children": ["flex-layout.row#home-compre-por-ocasiao-mob"]
+  },
+  "flex-layout.row#home-compre-por-ocasiao-mob": {
+    "children": ["flex-layout.col#home-compre-por-ocasiao-mob"],
+    "props": {
+      "blockClass": ["home-compre-por-ocasiao-mob"]
+    }
+  },
+  "flex-layout.col#home-compre-por-ocasiao-mob": {
+    "children": ["list-context.image-list#home-compre-por-ocasiao-mob"],
+    "props": {
+      "blockClass": ["home-compre-por-ocasiao-mob"]
+    }
+  },
+  "list-context.image-list#home-compre-por-ocasiao-mob": {
+    "children": ["slider-layout#banner-default"],
+    "props": {
+      "height": "auto",
+      "images": [
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/990065/m768x390%20-%20Moda%20Festa%20Mobile.png?v=638643286401070000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/990066/A768X390%20-%20Acess%C3%B3rios%20Mobile.png?v=638643286634300000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/990067/C768x390%20-%20Conjuntos%20Mobile.png?v=638643286863770000"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "menu-item#header-por-ocasiao": {
+    "props": {
+      "id": "menu-item-por-ocasiao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Por Ocasião",
+        "text": "Por Ocasião"
+      },
+      "blockClass": "header-desktop"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#por-ocasiao"]
+  },
+  "vtex.menu@2.x:submenu#por-ocasiao": {
+    "children": ["flex-layout.row#header-submenu-por-ocasiao"],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-submenu-por-ocasiao": {
+    "children": [
+      "toggle-layout#header-submenu-por-ocasiao",
+      "image#header-submenu-por-ocasiao"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu
+  "toggle-layout#header-submenu-por-ocasiao": {
+    "title": "Toggle - Coluna",
+    "children": ["vtex.menu@2.x:menu#header-submenu-por-ocasiao"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-por-ocasiao": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "",
+            "noFollow": false,
+            "tagTitle": "Por Ocasião",
+            "text": "Por Ocasião"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/looks-noite",
+            "noFollow": false,
+            "tagTitle": "Looks Noite",
+            "text": "Looks Noite"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda-festa",
+            "noFollow": false,
+            "tagTitle": "Moda Festa",
+            "text": "Moda Festa"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda-modesta",
+            "noFollow": false,
+            "tagTitle": "Moda modesta",
+            "text": "Moda modesta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/noivas",
+            "noFollow": false,
+            "tagTitle": "Noivas",
+            "text": "Noivas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/busca?fq=H:205",
+            "noFollow": false,
+            "tagTitle": "Promoção GetNet",
+            "text": "Promoção GetNet"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-para-trabalho",
+            "noFollow": false,
+            "tagTitle": "Roupas para Trabalho",
+            "text": "Roupas para Trabalho"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // image
+  "image#header-submenu-por-ocasiao": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/431025/Menu-Ocasião.jpg?v=638237512543800000",
+      "link": {
+        "url": "/"
+      },
+      "maxWidth": "360",
+      "maxHeight": "542",
+      "blockClass": "header-submenu"
+    }
+  },
+  // Menu mobile
+  "menu-item#header-drawer-por-ocasiao": {
+    "props": {
+      "id": "menu-item-header-drawer-por-ocasiao",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Por Ocasião",
+        "text": "Por Ocasião"
+      },
+      "blockClass": "header-drawer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#por-ocasiao"]
+  },
+  "vtex.menu@2.x:submenu.accordion#por-ocasiao": {
+    "children": ["vtex.menu@2.x:menu#header-submenu-por-ocasiao-mob"],
+    "props": {
+      "blockClass": "header-drawer"
+    }
+  },
+  "vtex.menu@2.x:menu#header-submenu-por-ocasiao-mob": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/looks-noite",
+            "noFollow": false,
+            "tagTitle": "Looks Noite",
+            "text": "Looks Noite"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda-festa",
+            "noFollow": false,
+            "tagTitle": "Moda Festa",
+            "text": "Moda Festa"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/moda-modesta",
+            "noFollow": false,
+            "tagTitle": "Moda modesta",
+            "text": "Moda modesta"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/noivas",
+            "noFollow": false,
+            "tagTitle": "Noivas",
+            "text": "Noivas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/busca?fq=H:205",
+            "noFollow": false,
+            "tagTitle": "Promoção GetNet",
+            "text": "Promoção GetNet"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-para-trabalho",
+            "noFollow": false,
+            "tagTitle": "Roupas para Trabalho",
+            "text": "Roupas para Trabalho"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": ["header-submenu", "header-submenu-mob"]
+    }
+  }
+}

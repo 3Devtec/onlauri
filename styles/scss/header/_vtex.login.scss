@@ -1,0 +1,23 @@
+.buttonLink {
+  :global(.vtex-button__label) {
+    padding: 0;
+    width: 21px;
+    height: 19px;
+    .profileIcon {
+      width: 19px;
+      height: 19px;
+    }
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--header-desktop-icons) {
+  .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    :global(.vtex-button__label) {
+      padding: 0;
+    }
+  }
+}

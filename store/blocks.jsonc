@@ -1,0 +1,46 @@
+/* Blocks can be defined both on the store/blocks.json file, and in any number of json
+ * files inside the store/blocks directory, with any arbitrary directory structure.
+ *
+ * Additionally, all blocks files can support comments, such as this one, if given the
+ * .jsonc file extension.
+ *
+ * The store/blocks.json file is intended for backwards compatibility, for miscellaneous
+ * blocks, or if the app is simple enough that it doesn't warrant splitting the file.
+ */
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.product-review-form": {
+    "blocks": ["product-review-form"]
+  },
+  "store.not-found#product": {
+    "blocks": ["search-not-found-layout"]
+  },
+  "store.not-found#search": {
+    "blocks": ["search-not-found-layout"]
+  },
+  "store.not-found": {
+    "blocks": ["search-not-found-layout"]
+  },
+  "rich-text#not-found": {
+    "props": {
+      "text": "### Desculpe! Não encontramos nenhum resultado.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "not-found"
+    }
+  },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 600,
+      "display": "caret-icon"
+    }
+  }
+}

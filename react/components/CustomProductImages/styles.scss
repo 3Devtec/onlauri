@@ -1,0 +1,62 @@
+:global(.main-arrow-next),
+:global(.main-arrow-prev) {
+  opacity: 1;
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+
+  &:hover {
+    opacity: 1 !important;
+  }
+
+  svg {
+    display: none;
+  }
+  &::after {
+    content: url('data:image/svg+xml,<svg fill="none" width="24" height="24" viewBox="0 0 16 16" class=" vtex-store-components-3-x-caretIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="nav-caret--right"><path d="M12.1948 7.26254C12.6276 7.65892 12.6276 8.34108 12.1948 8.73746L4.26471 16L2 13.9259L8.47059 8L2 2.07407L4.26471 0L12.1948 7.26254Z" fill="%23fff" /></g></svg>');
+    scale: 0.7;
+  }
+}
+
+:global(.main-arrow-prev) {
+  right: 0;
+
+  &::after {
+    content: url('data:image/svg+xml,<svg fill="none" width="24" height="24" viewBox="0 0 16 16" class=" vtex-store-components-3-x-caretIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="nav-caret--left"><path d="M2.80524 8.73746C2.37243 8.34108 2.37243 7.65892 2.80525 7.26254L10.7353 0L13 2.07407L6.52941 8L13 13.9259L10.7353 16L2.80524 8.73746Z" fill="%23fff" /></g></svg>');
+    scale: 0.7;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.mediaContainer {
+  max-height: 778px;
+  overflow: hidden;
+}
+
+.thumbVideo::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' fill='%23000000C2' version='1.1' id='Capa_1' width='800px' height='800px' viewBox='0 0 408.221 408.221' xml:space='preserve' style='&%2310; &%2310;'%3E%3Cg%3E%3Cg%3E%3Cpath d='M204.11,0C91.388,0,0,91.388,0,204.111c0,112.725,91.388,204.11,204.11,204.11c112.729,0,204.11-91.385,204.11-204.11 C408.221,91.388,316.839,0,204.11,0z M286.547,229.971l-126.368,72.471c-17.003,9.75-30.781,1.763-30.781-17.834V140.012 c0-19.602,13.777-27.575,30.781-17.827l126.368,72.466C303.551,204.403,303.551,220.217,286.547,229.971z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}

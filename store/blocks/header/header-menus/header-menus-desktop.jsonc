@@ -1,0 +1,91 @@
+{
+  "flex-layout.col#header-desktop-menus": {
+    "children": ["flex-layout.row#header-desktop-menus"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "blockClass": "header-desktop-menus"
+    }
+  },
+  "flex-layout.row#header-desktop-menus": {
+    "children": ["vtex.menu@2.x:menu#header-desktop"],
+    "props": {
+      "blockClass": "header-desktop-menus"
+    }
+  },
+  "vtex.menu@2.x:menu#header-desktop": {
+    "title": "Menu Desktop",
+    "children": [
+      "menu-item#header-roupas-categoria",
+      "menu-item#header-acessorios",
+      "menu-item#header-por-ocasiao",
+      "menu-item#header-fiore"
+    ],
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-verao-25",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Verão 25",
+            "text": "Verão 25"
+          }
+        },
+        {
+          "id": "menu-item-vestidos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        },
+        {
+          "id": "menu-item-fim-de-ano",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Fim De Ano",
+            "text": "Fim De Ano"
+          }
+        },
+        {
+          "id": "menu-item-no-precinho",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "No Precinho (A Partir De R$19)",
+            "text": "No Precinho (A Partir De R$19)"
+          }
+        },
+        {
+          "id": "menu-item-sale",
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "SALE",
+            "text": "SALE"
+          }
+        }
+      ],
+      "orientation": "horizontal",
+      "blockClass": "header-desktop"
+    }
+  }
+}

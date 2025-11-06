@@ -1,0 +1,83 @@
+{
+  "search-result-layout.mobile": {
+    "title": "Search Mobile",
+    "children": [
+      "toggle-layout#search-banner-mobile",
+      "flex-layout.row#search-breadcrumb-mobile",
+      "responsive-layout.mobile#home-navegar-categorias",
+      "flex-layout.row#search-result-filter-order-by",
+      "flex-layout.row#search-result-mob"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "pagination": "infiniteScroll",
+      "hiddenFacets": {
+        "priceRange": true,
+        "brands": true,
+        "specificationFilters": {
+          "hiddenFilters": ["Brand", "Marca"]
+        }
+      }
+    }
+  },
+  "flex-layout.row#search-breadcrumb-mobile": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "blockClass": ["search-breadcrumb-mob", "search-container"]
+    }
+  },
+  "search-result-layout.mobile#search": {
+    "title": "Search Mobile",
+    "children": [
+      "flex-layout.row#search-result-filter-order-by",
+      "flex-layout.row#search-result-mob"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "pagination": "infiniteScroll",
+      "hiddenFacets": {
+        "priceRange": true,
+        "brands": true,
+        "specificationFilters": {
+          "hiddenFilters": ["Brand", "Marca"]
+        }
+      }
+    }
+  },
+  "flex-layout.row#search-result-filter-order-by": {
+    "children": ["filter-navigator.v3#search", "order-by.v2"],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "around",
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["search-result-filter-order-by", "search-container"]
+    }
+  },
+  "flex-layout.row#search-result-mob": {
+    "children": ["flex-layout.col#search-result-mob"],
+    "props": {
+      "colSizing": "auto",
+      "colJustify": "between",
+      "blockClass": ["search-result-mob", "search-container"]
+    }
+  },
+  "flex-layout.col#search-result-mob": {
+    "children": [
+      "search-fetch-previous",
+      "search-content",
+      "flex-layout.row#search-fetch-more"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "search-result-mob"
+    }
+  },
+  "flex-layout.row#search-fetch-more": {
+    "children": ["search-fetch-more"],
+    "props": {
+      "blockClass": "search-fetch-more"
+    }
+  }
+}

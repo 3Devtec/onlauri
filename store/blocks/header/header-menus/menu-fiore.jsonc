@@ -1,0 +1,301 @@
+{
+  "menu-item#header-fiore": {
+    "props": {
+      "id": "menu-item-fiore",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fiore",
+        "text": "Fiore"
+      },
+      "blockClass": "header-desktop"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#fiore"]
+  },
+  "vtex.menu@2.x:submenu#fiore": {
+    "children": ["flex-layout.row#header-submenu-fiore"],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-submenu-fiore": {
+    "children": [
+      "toggle-layout#header-submenu-fiore",
+      "image#header-submenu-fiore"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu
+  "toggle-layout#header-submenu-fiore": {
+    "title": "Toggle - Coluna",
+    "children": ["vtex.menu@2.x:menu#header-submenu-fiore"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-fiore": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore",
+            "noFollow": false,
+            "tagTitle": "Fiore",
+            "text": "Fiore"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/bolsas",
+            "noFollow": false,
+            "tagTitle": "Bolsas",
+            "text": "Bolsas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/carteira",
+            "noFollow": false,
+            "tagTitle": "Carteira",
+            "text": "Carteira"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/chaveiro",
+            "noFollow": false,
+            "tagTitle": "Chaveiro",
+            "text": "Chaveiro"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/cinto",
+            "noFollow": false,
+            "tagTitle": "Cinto",
+            "text": "Cinto"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/mochila",
+            "noFollow": false,
+            "tagTitle": "Mochila",
+            "text": "Mochila"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/necessaire",
+            "noFollow": false,
+            "tagTitle": "Necessaire",
+            "text": "Necessaire"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/pochete",
+            "noFollow": false,
+            "tagTitle": "Pochete",
+            "text": "Pochete"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/presilha",
+            "noFollow": false,
+            "tagTitle": "Presilha",
+            "text": "Presilha"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/sapatos",
+            "noFollow": false,
+            "tagTitle": "Sapatos",
+            "text": "Sapatos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // image
+  "image#header-submenu-fiore": {
+    "props": {
+      "src": "https://onlauri.vtexassets.com/assets/vtex.file-manager-graphql/images/fbf511a7-6573-45d0-83c8-2383efdd76cb___f443573f7b2479343ee1f0994abac1ae.jpg",
+      "link": {
+        "url": "/"
+      },
+      "maxWidth": "360",
+      "maxHeight": "542",
+      "blockClass": "header-submenu"
+    }
+  },
+  // Menu mobile
+  "menu-item#header-drawer-fiore": {
+    "props": {
+      "id": "menu-item-header-drawer-fiore",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Fiore",
+        "text": "Fiore"
+      },
+      "blockClass": "header-drawer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#fiore"]
+  },
+  "vtex.menu@2.x:submenu.accordion#fiore": {
+    "children": ["vtex.menu@2.x:menu#header-submenu-fiore-mob"],
+    "props": {
+      "blockClass": "header-drawer"
+    }
+  },
+  "vtex.menu@2.x:menu#header-submenu-fiore-mob": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/bolsas",
+            "noFollow": false,
+            "tagTitle": "Bolsas",
+            "text": "Bolsas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/carteira",
+            "noFollow": false,
+            "tagTitle": "Carteira",
+            "text": "Carteira"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/chaveiro",
+            "noFollow": false,
+            "tagTitle": "Chaveiro",
+            "text": "Chaveiro"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/cinto",
+            "noFollow": false,
+            "tagTitle": "Cinto",
+            "text": "Cinto"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/mochila",
+            "noFollow": false,
+            "tagTitle": "Mochila",
+            "text": "Mochila"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/necessaire",
+            "noFollow": false,
+            "tagTitle": "Necessaire",
+            "text": "Necessaire"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/pochete",
+            "noFollow": false,
+            "tagTitle": "Pochete",
+            "text": "Pochete"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/presilha",
+            "noFollow": false,
+            "tagTitle": "Presilha",
+            "text": "Presilha"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/fiore/sapatos",
+            "noFollow": false,
+            "tagTitle": "Sapatos",
+            "text": "Sapatos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": ["header-submenu", "header-submenu-mob"]
+    }
+  }
+}

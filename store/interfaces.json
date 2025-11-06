@@ -1,0 +1,43 @@
+{
+  "home-reviews": {
+    "component": "HomeReviews"
+  },
+  "newsletter-form": {
+    "component": "NewsletterForm"
+  },
+  "seo-text": {
+    "component": "SeoText"
+  },
+  "medidas-component": {
+    "component": "MedidasComponent"
+  },
+  "contact-form": {
+    "component": "ContactForm"
+  },
+  "our-stores": {
+    "component": "OurStores"
+  },
+  "minicart-checkout-form": {
+    "component": "MinicartCheckoutForm"
+  },
+  "affiliates-script": {
+    "component": "AffiliatesScript"
+  },
+  "video-player": {
+    "component": "VideoPlayer"
+  },
+  "custom-product-name": {
+    "component": "CustomProductName"
+  },
+  "custom-product-images": {
+    "component": "CustomProductImages"
+  },
+  "sku-size": {
+    "component": "SkuSize"
+  },
+  "vitrine-destaques-custom": {
+    "title": "Vitrine Destaques",
+    "component": "ShelfHighlights",
+    "composition": "children"
+  }
+}

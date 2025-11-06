@@ -1,0 +1,98 @@
+{
+  "store.search": {
+    "blocks": ["search-result-layout#search"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "store.search#department": {
+    "blocks": ["search-result-layout", "toggle-layout#search-seo-text"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "store.search#category": {
+    "blocks": ["search-result-layout", "toggle-layout#search-seo-text"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result-layout", "toggle-layout#search-seo-text"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": ["search-result-layout", "toggle-layout#search-seo-text"],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 12,
+        "orderByField": "OrderByReleaseDateDESC"
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#search": {
+    "blocks": [
+      "search-result-layout.desktop#search",
+      "search-result-layout.mobile#search",
+      "search-not-found-layout"
+    ]
+  },
+  "toggle-layout#search-seo-text": {
+    "title": "Toggle - SEO Text",
+    "children": ["flex-layout.row#search-seo-text"],
+    "props": {
+      "renderChildren": false
+    }
+  },
+  "flex-layout.row#search-seo-text": {
+    "children": ["seo-text#search"],
+    "props": {
+      "blockClass": ["search-seo-text", "search-container"]
+    }
+  },
+  "seo-text#search": {
+    "props": {
+      "showBtn": true,
+      "title": "### Onaluri",
+      "text1": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.",
+      "text2": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+      "btnTextClose": "ler mais",
+      "btnTextOpen": "ler menos"
+    }
+  },
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#plp-not-found"]
+  },
+  "flex-layout.row#plp-not-found": {
+    "children": ["flex-layout.col#plp-not-found"],
+    "props": {
+      "marginTop": 10,
+      "blockClass": "plp-not-found"
+    }
+  },
+  "flex-layout.col#plp-not-found": {
+    "children": ["rich-text#not-found", "toggle-layout#default-shelf"],
+    "props": { "rowGap": 10, "blockClass": "plp-not-found" }
+  }
+}

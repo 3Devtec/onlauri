@@ -1,0 +1,30 @@
+{
+    "sticky-layout#buy-button": {
+        "props": {
+            "position": "bottom"
+        },
+        "children": [
+            "flex-layout.row#wrapper-buy-button"
+        ]
+    },
+    "flex-layout.row#wrapper-buy-button": {
+        "props": {
+            "blockClass": "wrapper-button-floating"
+        },
+        "children": [
+            "flex-layout.row#pdp-prices",
+            "flex-layout.row#buy-button"
+        ]
+    },
+    "flex-layout.row#buy-button": {
+        "props": {
+            "marginTop": 4,
+            "marginBottom": 7,
+            "paddingBottom": 2,
+            "blockClass": "product-buy-button-floating"
+        },
+        "children": [
+            "flex-layout.row#pdp-buy-btn"
+        ]
+    }
+}

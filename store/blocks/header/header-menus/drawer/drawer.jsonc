@@ -1,0 +1,200 @@
+{
+  "drawer#header": {
+    "title": "Drawer Menu",
+    "blocks": ["drawer-header#header"],
+    "children": ["vtex.menu@2.x:menu#drawer-menu"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "drawer-header#header": {
+    "title": "Drawer Header",
+    "children": ["flex-layout.row#header-drawer"],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "flex-layout.row#header-drawer": {
+    "children": ["logo#mobile", "drawer-close-button"],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "horizontalAlign": "between",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header-drawer"
+    }
+  },
+  "drawer-close-button": {
+    "props": {
+      "size": 24
+    }
+  },
+  "menu-item#header-drawer-uteis": {
+    "props": {
+      "id": "menu-item-header-drawer-uteis",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Entrar / Criar Conta",
+        "text": "Entrar / Criar Conta"
+      },
+      "blockClass": ["header-drawer", "header-drawer-uteis"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#header-drawer-uteis"]
+  },
+  "vtex.menu@2.x:submenu.accordion#header-drawer-uteis": {
+    "children": ["vtex.menu@2.x:menu#drawer-uteis"],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "vtex.menu@2.x:menu#drawer-uteis": {
+    "title": "Drawer Utils",
+    "children": [
+      "menu-item#drawer-cadastro",
+      "menu-item#drawer-favoritos",
+      "menu-item#drawer-pedidos"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": ["header-drawer", "drawer-uteis"]
+    }
+  },
+  "menu-item#drawer-cadastro": {
+    "props": {
+      "id": "menu-item-cadastro",
+      "type": "custom",
+      "highlight": false,
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "hpa-profile",
+        "size": 19,
+        "viewBox": "0 0 16 16"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/login",
+        "noFollow": false,
+        "tagTitle": "Cadastro",
+        "text": "Cadastro"
+      },
+      "blockClass": ["header-drawer", "drawer-uteis"]
+    }
+  },
+  "menu-item#drawer-favoritos": {
+    "props": {
+      "id": "menu-item-favoritos",
+      "type": "custom",
+      "highlight": false,
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "hpa-wishlist",
+        "size": 19,
+        "viewBox": "0 0 16 16"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/wishlist",
+        "noFollow": false,
+        "tagTitle": "Favoritos",
+        "text": "Favoritos"
+      },
+      "blockClass": ["header-drawer", "drawer-uteis"]
+    }
+  },
+  "menu-item#drawer-pedidos": {
+    "props": {
+      "id": "menu-item-pedidos",
+      "type": "custom",
+      "highlight": false,
+      "iconPosition": "left",
+      "iconProps": {
+        "id": "hpa-cart",
+        "size": 19,
+        "viewBox": "0 0 16 16"
+      },
+      "itemProps": {
+        "type": "internal",
+        "href": "/account#/profile",
+        "noFollow": false,
+        "tagTitle": "Pedidos",
+        "text": "Pedidos"
+      },
+      "blockClass": ["header-drawer", "drawer-uteis"]
+    }
+  },
+  "vtex.menu@2.x:menu#drawer-menu": {
+    "title": "Drawer Itens",
+    "children": [
+      "menu-item#header-drawer-uteis",
+      "menu-item#header-drawer-roupas-categoria",
+      "menu-item#header-drawer-acessorios",
+      "menu-item#header-drawer-por-ocasiao",
+      "menu-item#header-drawer-fiore"
+    ],
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Verão 25",
+            "text": "Verão 25"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Fim De Ano",
+            "text": "Fim De Ano"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "No Precinho (A Partir De R$19)",
+            "text": "No Precinho (A Partir De R$19)"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "SALE",
+            "text": "SALE"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": ["header-drawer", "header-desktop"]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.flexRow--header {
+  &-submenu {
+    min-width: 600px;
+  }
+  &-search-bar {
+    background-color: var(--ui-neutrals-100);
+  }
+  &-drawer {
+    width: 100%;
+  }
+  &-desktop {
+    padding: 15px 0;
+    &-icons {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .stretchChildrenWidth {
+        display: flex;
+        align-items: center;
+        width: 30px !important;
+        justify-content: center;
+      }
+    }
+  }
+  &-mobile {
+    padding: 5px 16px;
+    &-drawer-search,
+    &-login-minicart {
+      display: flex;
+      align-items: center;
+      .flexRowContent {
+        gap: 10px;
+      }
+    }
+  }
+}

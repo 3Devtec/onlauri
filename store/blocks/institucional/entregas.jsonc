@@ -1,0 +1,38 @@
+{
+  "store.custom#entregas": {
+    "blocks": ["flex-layout.row#template-entregas"]
+  },
+  "flex-layout.row#template-entregas": {
+    "title": "Institucional Template",
+    "children": [
+      "flex-layout.col#institucional-menu",
+      "flex-layout.col#entregas-content"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colSizing": "auto",
+      "blockClass": "template-institucional"
+    }
+  },
+  "flex-layout.col#entregas-content": {
+    "title": "Institucional Conteúdo Container",
+    "children": ["rich-text#entregas-content"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-content"
+    }
+  },
+  "rich-text#entregas-content": {
+    "title": "Institucional Conteúdo Título",
+    "props": {
+      "text": "CÁLCULO DO FRETE \n\n O frete é calculado durante o processo de compra, num determinado momento você será solicitado a informar o CEP da entrega do produto e o sistema calculará automaticamente o valor do frete, o resultado deste cálculo será somado ao valor da compra formando assim o valor total a ser pago. Você poderá consultar também o preço e prazo de entrega; e locais de entrega em: [https://www2.correios.com.br/sistemas/precosPrazos/](https://www2.correios.com.br/sistemas/precosPrazos/). \n\n Frete Grátis na forma de entrega 'Envio Normal' nas compras Acima de R$ 179,99 para regiões Sul, Sudeste, Centro-Oeste e Bahia. Demais regiões, Frete grátis nas compras acima de R$ 299,00. Produtos da categoria VENDA FLASH, OUTLET e Peças Promocionais não contabilizam para a aplicação do Frete Gratís. \n\n Envios: Os envios são feitos pela empresa Correios, após postarmos sua compra enviamos o código de rastreio em até 3 dias úteis para que possa acompanhar até a chegada, caso queira acompanhar sua compra entre link; http://www2.correios.com.br/sistemas/rastreamento/. \n\n Prazo: prazo estimado de entrega fornecido pelo Correios \n\n Frete via Envio Normal (PAC): Prazo estimado de 5 a 20 dias úteis. \n\n Frete via Envio Rápido (SEDEX): Prazo estimado de 1 a 10 dias úteis. \n\n Atenção: Para regiões Norte e Nordeste, acrescentar 5 dias úteis ao envio via Envio Rápido, e 10 dias úteis para envio via Envio Normal. \n\n Após sua compra ser aprovada, seu pedido deverá ser enviado em até 24 horas úteis. \n\n O prazo de envio de sua encomenda na loja, se inicia a partir da confirmação de pagamento pela instituição financeira. Quando o tempo de postagem for superior ao mencionado acima, devido a qualquer tipo de casualidade, isso será avisado através do e-mail. \n\n Garantia ONLAURI \n\n Nossa entrega é realizada pelo correio com código de rastreio para acompanhamento, encaminhado no seu e-mail após 2 dias uteis da confirmação do pagamento. \n\n Caso tenha alguma dúvida, estamos à disposição para ajudar. Nosso canal de atendimento esta a sua disposição. \n\n Atendimento e-mail: \n\n contato@onlauri.com",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "institucional-content"
+    }
+  }
+}

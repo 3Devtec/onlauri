@@ -1,0 +1,25 @@
+.productName {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.price {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  .productPriceCurrency {
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--brand-primary);
+  }
+  .productPrice {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
+
+.removeButtonContainer {
+  display: flex;
+  justify-content: center;
+}

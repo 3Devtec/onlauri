@@ -1,0 +1,38 @@
+{
+  "store.custom#politica-de-seguranca": {
+    "blocks": ["flex-layout.row#template-politica-de-seguranca"]
+  },
+  "flex-layout.row#template-politica-de-seguranca": {
+    "title": "Institucional Template",
+    "children": [
+      "flex-layout.col#institucional-menu",
+      "flex-layout.col#politica-de-seguranca-content"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colSizing": "auto",
+      "blockClass": "template-institucional"
+    }
+  },
+  "flex-layout.col#politica-de-seguranca-content": {
+    "title": "Institucional Conteúdo Container",
+    "children": ["rich-text#politica-de-seguranca-content"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-content"
+    }
+  },
+  "rich-text#politica-de-seguranca-content": {
+    "title": "Institucional Conteúdo Título",
+    "props": {
+      "text": "Para proteger suas informações pessoais, tomamos precauções e seguimos as melhores práticas da indústria para nos certificar que elas não sejam perdidas, usurpadas, acessadas, divulgadas, alteradas ou destruídas. \n\n Para você comprar tranquilo e com total segurança utilizamos um certificado de segurança, com reconhecimento mundial em segurança pela Internet. \n\n Não divulgamos ou comercializamos seus dados pessoais. Entendemos que essas informações foram fornecidas pela confiança em nossa empresa e que, cabe a nós, devolver à você o mesmo respeito. \n\n Suas informações são utilizadas somente por nós, para uma variedade de finalidades como conferir o pedido, facilitar preenchimento de pedido, fazer análise de perfis e estatísticas, melhoria das operações do site e envio de conteúdo, comunicados, materiais promocionais e informações.",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "institucional-content"
+    }
+  }
+}

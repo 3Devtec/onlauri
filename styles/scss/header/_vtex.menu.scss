@@ -1,0 +1,111 @@
+.menuContainer--header-desktop {
+  gap: 20px;
+  .styledLink {
+    font-size: 14px;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+    &--highlight {
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--brand-secondary);
+    }
+  }
+}
+
+.menuItem--header-favoritos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .styledLinkIcon--header-favoritos {
+    :first-child {
+      width: 19px;
+      height: 19px;
+    }
+  }
+}
+
+.submenuWrapper--header-desktop {
+  padding: 0;
+  border: none;
+  margin-top: 17px;
+  background: var(--ui-neutrals-100);
+  .menuContainerNav--header-submenu {
+    .menuContainer {
+      padding: 20px;
+      .styledLinkContainer {
+        padding: 0;
+        .styledLink--highlight {
+          color: var(--ui-neutrals-black);
+          .styledLinkContent {
+            padding: 0;
+            margin-bottom: 20px;
+          }
+        }
+        .styledLinkContent {
+          padding: 5px 0;
+          font-size: 14px;
+          line-height: 21px;
+          letter-spacing: 0.03em;
+        }
+      }
+    }
+  }
+}
+
+.menuContainerNav--header-drawer {
+  width: 100%;
+  .menuContainer {
+    gap: 0;
+  }
+}
+
+.submenuAccordion--header-drawer {
+  margin-top: 10px;
+}
+
+.menuItem--header-drawer {
+  padding: 8px 16px;
+  &--isOpen {
+    background-color: var(--ui-neutrals-100);
+    .styledLinkContent--header-drawer {
+      font-weight: 700;
+    }
+  }
+  .accordionIcon--header-drawer {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &::after {
+      content: '';
+      width: 6px;
+      height: 6px;
+      display: inline-block;
+      transform: rotate(45deg);
+      border-right: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+    &--isOpen {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.menuItem {
+  &--header-drawer-uteis {
+    margin-bottom: 20px;
+  }
+  &--drawer-uteis {
+    padding: 8px 0;
+    .styledLinkContent--drawer-uteis {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.styledLinkContent--header-search,
+.styledLinkContent--header-favoritos {
+  justify-content: center;
+}

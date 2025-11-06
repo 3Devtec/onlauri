@@ -1,0 +1,57 @@
+{
+  // footer menu desktop 3
+  "flex-layout.col#footer-desktop-menu-3": {
+    "title": "Container - Menu 3",
+    "children": [
+      "rich-text#footer-menu-title-3",
+      "rich-text#footer-menu-content-3"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "footer-desktop-menus"
+    }
+  },
+  "rich-text#footer-menu-title-3": {
+    "title": "Title - Menu 3",
+    "props": {
+      "text": "CONTATO",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "rich-text#footer-menu-content-3": {
+    "title": "Content - Menu 3",
+    "props": {
+      "text": "(17) 3042-1719 \n\n [contato@onlauri.com](mailto:contato@onlauri.com) \n\n Segunda a Sexta-feira das 08:00 às 17:48",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "footer-menu-content"
+    }
+  },
+  // mobile
+  "menu-item#footer-menu-3": {
+    "title": "Menu 3",
+    "props": {
+      "id": "menu-item-footer-menu-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "CONTATO",
+        "text": "CONTATO"
+      },
+      "blockClass": ["footer-menu-mobile", "footer-menu-mobile-title"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-menu-3"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-menu-3": {
+    "children": ["rich-text#footer-menu-content-3"],
+    "props": {
+      "blockClass": "submenu-footer"
+    }
+  }
+}

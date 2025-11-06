@@ -1,0 +1,29 @@
+{
+  "store.custom#fale-conosco": {
+    "blocks": ["flex-layout.row#template-fale-conosco"]
+  },
+  "flex-layout.row#template-fale-conosco": {
+    "title": "Institucional Template",
+    "children": [
+      "flex-layout.col#institucional-menu",
+      "flex-layout.col#fale-conosco-content"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colSizing": "auto",
+      "blockClass": "template-institucional"
+    }
+  },
+  "flex-layout.col#fale-conosco-content": {
+    "title": "Institucional Conteúdo Container",
+    "children": ["contact-form"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-content"
+    }
+  }
+}

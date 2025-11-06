@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#footer-newsletter": {
+    "title": "Newsletter - Container",
+    "children": [
+      "flex-layout.col#footer-newsletter-text",
+      "flex-layout.col#footer-newsletter-form"
+    ],
+    "props": {
+      "colGap": 5,
+      "fullWidth": true,
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "flex-layout.col#footer-newsletter-text": {
+    "children": ["rich-text#footer-newsletter"],
+    "props": {
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "rich-text#footer-newsletter": {
+    "props": {
+      "text": "Fique por dentro das novidades",
+      "blockClass": "footer-newsletter"
+    }
+  },
+  "flex-layout.col#footer-newsletter-form": {
+    "children": ["newsletter-form"],
+    "props": {
+      "blockClass": "footer-newsletter"
+    }
+  }
+}

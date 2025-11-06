@@ -1,0 +1,26 @@
+{
+  "store.custom#colecao": {
+    "blocks": [
+      "search-result-layout.customQuery#colecao",
+      "toggle-layout#search-seo-text"
+    ],
+    "props": {
+      "blockClass": "colecao"
+    }
+  },
+  "search-result-layout.customQuery#colecao": {
+    "title": "Coleção",
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 12,
+        "queryField": "",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}

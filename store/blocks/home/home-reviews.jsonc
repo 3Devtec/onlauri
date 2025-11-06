@@ -1,0 +1,75 @@
+{
+  "toggle-layout#home-reviews": {
+    "title": "Toggle - Home Reviews",
+    "children": ["flex-layout.row#home-reviews"]
+  },
+  "flex-layout.row#home-reviews": {
+    "children": ["home-reviews"],
+    "props": {
+      "blockClass": ["home-section", "home-reviews"]
+    }
+  },
+  "home-reviews": {
+    "props": {
+      "isActive": true,
+      "reviews": [
+        {
+          "stars": "5",
+          "reviewText": "”Surpreendida com a qualidade do atendimento e peças impecáveis, tudo de muita qualidade! Vou comprar novamente :)”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Prova-social-Fernanda.jpg?v=638543239665200000",
+          "reviewsAuthorName": "Fernanda Ribeiro",
+          "reviewsProductName": "Jaqueta Puffer Vinil Aveludado"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”As peças são lindass, vem com um cheirinho maravilhoso e a entrega é super rápida, adorei!  \n Parabéns! 🩵”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Yanay.jpg?v=638543121573070000",
+          "reviewsAuthorName": "Yanay",
+          "reviewsProductName": "Calça Pantalona Alfaiataria"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”Achei a loja no Insta e resolvi comprar. Tive uma dúvida e o atendimento pelo WhatsApp foi super rápido. Adorei!”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Bruna-Mattos.jpg?v=638543093388700000",
+          "reviewsAuthorName": "Bruna Mattos",
+          "reviewsProductName": "Blusa Muscle Tee Canelada"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”Precisava de uma roupa pra entrevista e achei exatamente o que queria na OnLauri. Atendimento ótimo e a roupa é excelente!”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Samyra-Tessaro.jpg?v=638543093392600000",
+          "reviewsAuthorName": "Conjunto Colete Blazer",
+          "reviewsProductName": "Samyra Tessaro"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”As roupas são incríveis, mas achei os preços meio altos. Quando recebi as peças, fiquei surpresa com a qualidade! Valeu cada centavo. Atendimento e produtos top demais!”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Ludiana.jpg?v=638543093393700000",
+          "reviewsAuthorName": "Ludiana Oliveira",
+          "reviewsProductName": "Vestido Bandagem Midi Asymmetric"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”Comprei um vestido pra minha formatura e ele é simplesmente perfeito! Atendimento show. Super recomendo.”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Tamiris-Oliba.jpg?v=638543093395530000",
+          "reviewsAuthorName": "Tamiris",
+          "reviewsProductName": "Vestido Bandagem Luxury"
+        },
+        {
+          "stars": "5",
+          "reviewText": "”Já comprei várias vezes, amo o cheirinho e a qualidade das peças, vou pelas medidas do site e cabe certinho. Com certeza irei continuar comprando”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Keliane.jpg?v=638543191143470000",
+          "reviewsAuthorName": "Keliane Morais",
+          "reviewsProductName": "Macacão Longo Bat Stripe"
+        },
+        {
+          "stars": "4",
+          "reviewText": "”Minha entrega atrasou um pouco, mas entrei em contato e a equipe da OnLauri resolveu tudo muito rápido. Super satisfeita com o atendimento!”",
+          "reviewAuthorImage": "https://www.onlauri.com.br/arquivos/Provasocial-Amanda.jpg?v=638543130570100000",
+          "reviewsAuthorName": "Amanda",
+          "reviewsProductName": "Vestido Longo"
+        }
+      ]
+    }
+  }
+}

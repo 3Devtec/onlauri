@@ -1,0 +1,24 @@
+# This file only contain allowlist.
+# Rules are updated and maintain by DevOps team.
+# Use 'cb vtex test gitleaks' command to run scan.
+# For see the rules visit: https://santiago.corebiz.cl/cncli/gitleaks.rules.toml
+
+title = "gitleaks config"
+
+[allowlist]
+description = "VTEX whitelist"
+# DO NOT IGNORE FILES WITHOUT THE SUPERVISION OF YOUR TECHLEAD.
+# Bypass code without a compelling reason may incur a security and protocol violation.
+paths = [
+    # Default.
+    '''gitleaks.toml''',
+    '''(.*?)(jpg|gif|doc|docx|zip|xls|pdf|bin|svg|socket)$''',
+    '''(go.mod|go.sum)$''',
+    '''gradle.lockfile''',
+    '''package-lock.json''',
+    '''pnpm-lock.yaml''',
+    '''Database.refactorlog''',
+    # VTEX.
+    '''node_modules/''',
+    '''react/node_modules/''',
+]

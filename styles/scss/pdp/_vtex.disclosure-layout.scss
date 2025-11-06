@@ -1,0 +1,21 @@
+.trigger--pdp-disclosure {
+  padding: 0;
+  width: 100%;
+  border: none;
+  display: flex;
+  cursor: pointer;
+  margin-top: 20px;
+  background: none;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+  &:hover {
+    :global(.vtex-rich-text-0-x-paragraph--pdp-disclosure) {
+      color: var(--brand-secondary);
+    }
+  }
+}
+
+.content--pdp-disclosure {
+  padding: 10px 0;
+}

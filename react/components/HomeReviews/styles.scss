@@ -1,0 +1,241 @@
+@media (min-width: 1025px) {
+  .sliderRightArrow {
+    right: -40px;
+  }
+  .sliderLeftArrow {
+    left: -40px;
+  }
+  .HomeReviews_container {
+    max-width: 1232px;
+    margin: 64px auto;
+    .HomeReviews_content {
+      width: 100%;
+      .HomeReviews_review_container {
+        display: flex;
+        min-height: 370px;
+        padding: 40px 30px;
+        border-radius: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: rgba(236, 102, 89, 0.1);
+        .HomeReviews_stars {
+          margin: 0 auto 40px;
+          .HomeReviews_star {
+            font-size: 40px;
+            line-height: 40px;
+            color: var(--ui-neutrals-white);
+          }
+          &[data-rating='1'] {
+            .HomeReviews_star_1 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='2'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='3'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='4'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3,
+            .HomeReviews_star_4 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='5'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3,
+            .HomeReviews_star_4,
+            .HomeReviews_star_5 {
+              color: var(--brand-secondary);
+            }
+          }
+        }
+        .HomeReviews_review p {
+          font-size: 24px;
+        }
+      }
+      .HomeReviews_author_infos {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        .HomeReviews_image {
+          min-width: 86px;
+          img {
+            object-fit: cover;
+            aspect-ratio: 1;
+            border-radius: 50%;
+          }
+        }
+        .HomeReviews_author_product {
+          display: flex;
+          margin-left: 10px;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          p {
+            margin: 0;
+          }
+          .HomeReviews_product p {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: normal;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -moz-line-clamp: 1;
+            -ms-box-orient: vertical;
+            -ms-line-clamp: 1;
+            white-space: pre-wrap;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            color: var(--ui-neutrals-dark);
+          }
+          .HomeReviews_author p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: normal;
+            color: var(--ui-neutrals-dark);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .sliderRightArrow {
+    right: -20px;
+  }
+  .sliderLeftArrow {
+    left: -20px;
+  }
+  .sliderArrows {
+    margin: 0;
+    padding: 0;
+    .caretIcon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .HomeReviews_container {
+    .HomeReviews_content {
+      width: 100%;
+      .HomeReviews_review_container {
+        display: flex;
+        height: 320px;
+        min-width: 200px;
+        padding: 35px 25px;
+        border-radius: 30px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: rgba(236, 102, 89, 0.1);
+        .HomeReviews_stars {
+          margin: 0 auto 20px;
+          .HomeReviews_star {
+            font-size: 28px;
+            line-height: 28px;
+            color: var(--ui-neutrals-white);
+          }
+          &[data-rating='1'] {
+            .HomeReviews_star_1 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='2'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='3'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='4'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3,
+            .HomeReviews_star_4 {
+              color: var(--brand-secondary);
+            }
+          }
+          &[data-rating='5'] {
+            .HomeReviews_star_1,
+            .HomeReviews_star_2,
+            .HomeReviews_star_3,
+            .HomeReviews_star_4,
+            .HomeReviews_star_5 {
+              color: var(--brand-secondary);
+            }
+          }
+        }
+        .HomeReviews_review p {
+          font-size: 16px;
+        }
+      }
+      .HomeReviews_author_infos {
+        display: flex;
+        margin-top: 15px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        .HomeReviews_image {
+          min-width: 60px;
+          img {
+            object-fit: cover;
+            aspect-ratio: 1;
+            border-radius: 50%;
+            width: 60px !important;
+            height: 60px !important;
+          }
+        }
+        .HomeReviews_author_product {
+          display: flex;
+          margin-left: 10px;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+          p {
+            margin: 0;
+          }
+          .HomeReviews_product p {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: normal;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -moz-line-clamp: 1;
+            -ms-box-orient: vertical;
+            -ms-line-clamp: 1;
+            white-space: pre-wrap;
+            overflow: hidden;
+            -webkit-box-orient: vertical;
+            color: var(--ui-neutrals-dark);
+          }
+          .HomeReviews_author p {
+            font-size: 12px;
+            font-weight: 400;
+            text-align: center;
+            line-height: normal;
+            color: var(--ui-neutrals-dark);
+          }
+        }
+      }
+    }
+  }
+}

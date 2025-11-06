@@ -1,0 +1,11 @@
+.stackItem--product-summary-wishlist-flags {
+  top: 5px;
+  width: 100%;
+  z-index: 15 !important;
+  @media (min-width: 1025px) {
+    padding: 0 10px;
+  }
+  @media (max-width: 1024px) {
+    padding: 0 5px;
+  }
+}

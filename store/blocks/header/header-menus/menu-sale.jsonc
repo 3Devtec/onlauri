@@ -1,0 +1,98 @@
+{
+  "menu-item#header-sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "SALE",
+        "text": "SALE"
+      },
+      "blockClass": "header-desktop"
+    },
+    "blocks": [
+      // "vtex.menu@2.x:submenu#header-sale"
+    ]
+  },
+  "vtex.menu@2.x:submenu#header-sale": {
+    "children": ["flex-layout.row#header-submenu-sale"],
+    "props": {
+      // "width": "100%",
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-submenu-sale": {
+    "children": ["toggle-layout#header-submenu-sale-1"],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "left",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu 1
+  "toggle-layout#header-submenu-sale-1": {
+    "title": "Toggle - Coluna 1",
+    "children": ["vtex.menu@2.x:menu#header-submenu-sale-1"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-sale-1": {
+    "title": "Submenu 1",
+    "props": {
+      "items": [],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu 2
+  "toggle-layout#header-submenu-sale-2": {
+    "title": "Toggle - Coluna 2",
+    "children": ["vtex.menu@2.x:menu#header-submenu-sale-2"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-sale-2": {
+    "title": "Submenu 2",
+    "props": {
+      "items": [],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu 3
+  "toggle-layout#header-submenu-sale-3": {
+    "title": "Toggle - Coluna 3",
+    "children": ["vtex.menu@2.x:menu#header-submenu-sale-3"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-sale-3": {
+    "title": "Submenu 3",
+    "props": {
+      "items": [],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu 4
+  "toggle-layout#header-submenu-sale-4": {
+    "title": "Toggle - Coluna 4",
+    "children": ["vtex.menu@2.x:menu#header-submenu-sale-4"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-sale-4": {
+    "title": "Submenu 4",
+    "props": {
+      "items": [],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // image
+  "image#header-submenu-sale": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/logo.png?v=637557571825430000",
+      "link": {
+        "url": "/"
+      },
+      "maxWidth": "",
+      "maxHeight": ""
+    }
+  }
+}

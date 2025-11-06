@@ -1,0 +1,108 @@
+.flexRow--pdp {
+  &-container {
+    margin: 20px auto;
+    :global(.vtex-store-components-3-x-container) {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  }
+  &-shelf-container {
+    margin: 20px auto;
+    :global(.vtex-store-components-3-x-container) {
+      margin: 0 auto;
+      max-width: 1340px;
+    }
+  }
+  &-breadcrumb {
+    padding: 10px 0;
+    background: #fafafa;
+  }
+  &-buy-btn {
+    margin-bottom: 30px;
+    :global(.vtex-button) {
+      border-radius: 0;
+      padding: 12px 10px;
+      :global(.vtex-button__label) {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &-prices-savings-img {
+    display: flex;
+    align-items: center;
+    .flexRowContent--pdp-prices-savings-img {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 1024px) {
+      padding-left: 10px;
+    }
+    @media (min-width: 1025px) {
+      width: 75%;
+      margin: 0 0 0 auto;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow--pdp {
+    &-images-btns {
+      max-width: 78%;
+      margin: 0 0 0 auto;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexCol--pdp-product-infos-col2 {
+    padding: 0;
+  }
+}
+
+//mobile pdp cta flutuante
+@media (max-width: 768px) {
+  .flexRowContent--wrapper-button-floating {
+    display: flex;
+
+    .flexRow--pdp-prices-installments {
+      display: none;
+    }
+    .flexRow--pdp-prices-savings {
+      display: none;
+    }
+    .flexRow--pdp-buy-btn {
+      :global(.vtex-button) {
+        height: 47px;
+        width: 95%;
+        top: 3px;
+      }
+    }
+    .flexRow--pdp-prices {
+      display: flex;
+      width: 94% !important;
+      height: 74px;
+      line-height: 27px;
+      align-items: center;
+    }
+  }
+
+  .flexRow--wrapper-button-floating {
+    background: white;
+    height: 72px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .flexRow--pdp-shelf:not(.flexRow--pdp-shelf-container) {
+    margin-top: -35px;
+  }
+}
+
+.flexRow--search-breadcrumb-mob {
+  margin: 20px 0;
+  padding: 10px 0;
+  background: #fafafa;
+}

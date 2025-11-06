@@ -1,0 +1,208 @@
+.imageElementLink--header-submenu {
+  font-size: 0;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.searchBarContainer {
+  min-width: 200px;
+  .searchBarInnerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .autoCompleteOuterContainer {
+      width: 140px;
+      :global(.vtex-input) {
+        :global(.vtex-input-prefix__group) {
+          border: none;
+          background: none;
+          :global(.vtex-styleguide-9-x-input) {
+            padding: 0;
+            font-size: 14px;
+            color: #424242;
+            background: none;
+            &::placeholder {
+              font-size: 14px;
+              color: #424242;
+            }
+          }
+          :global(.vtex-input__suffix) {
+            padding: 0;
+            background: none;
+            .searchBarIcon {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.skuSelectorContainer {
+  margin-top: 15px;
+  .skuSelectorSubcontainer--cor {
+    margin-bottom: 20px;
+    .skuSelectorNameContainer {
+      .skuSelectorTextContainer {
+        .skuSelectorName {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          margin-bottom: 12px;
+          text-transform: uppercase;
+          color: var(--brand-primary);
+        }
+      }
+    }
+    .skuSelectorOptionsList {
+      margin-left: 0;
+      gap: 5px;
+      .skuSelectorItem {
+        width: 55px;
+        height: 60px;
+        margin: 0;
+
+        .frameAround {
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          border: 0;
+        }
+
+        .skuSelectorInternalBox {
+          border: none;
+          justify-content: center;
+
+          &:hover {
+            border: 3px solid #000;
+            border-radius: 6px;
+            padding: 2px;
+          }
+
+          .diagonalCross {
+            background-image: linear-gradient(45deg, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 1px), transparent calc(50% + 1px));
+            width: 45px;
+            height: 50px;
+            top: 5px;
+            left: 5px;
+          }
+
+          .valueWrapper {
+            height: 50px;
+
+            &--unavailable {
+              .skuSelectorItemImageValue {
+                opacity: .5;
+              }
+            }
+
+            .skuSelectorItemImageValue {
+              width: 45px;
+              height: 50px;
+              object-fit: cover;
+              object-position: top;
+              border-radius: 6px;
+            }
+          }
+        }
+
+        &--selected {
+          .skuSelectorInternalBox {
+            border: 3px solid #000;
+            border-radius: 6px;
+            padding: 2px;
+
+            .diagonalCross {
+              top: 5px;
+              left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .skuSelectorSubcontainer--tamanho {
+    margin-bottom: 20px;
+    .skuSelectorNameContainer {
+      margin: 0;
+      .skuSelectorTextContainer {
+        .skuSelectorName {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 24px;
+          margin-bottom: 12px;
+          text-transform: uppercase;
+          color: var(--brand-primary);
+        }
+      }
+      .skuSelectorOptionsList {
+        gap: 5px;
+        .skuSelectorItem {
+          margin: 0;
+          width: 40px;
+          height: 40px;
+          font-size: 14px;
+          border-radius: 6px;
+          .frameAround {
+            border-radius: 6px;
+          }
+          .skuSelectorInternalBox {
+            border-radius: 6px;
+            border-color: #D1AE6C;
+            &:hover {
+              border-color: #D1AE6C;
+            }
+            .valueWrapper {
+              padding: 0;
+              color: #D1AE6C;
+              font-size: 14px;
+              font-weight: bold;
+            }
+            .diagonalCross {
+              background-image: linear-gradient(45deg, transparent calc(50% - 1px), #000 calc(50% - 1px), #000 calc(50% + 0.5px), transparent calc(50% + 0.5px));
+              width: 36px;
+              height: 36px;
+              top: 2px;
+              left: 2px;
+              z-index: 2;
+            }
+          }
+          &--selected {
+            .frameAround {
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              border: 0;
+            }
+            .skuSelectorInternalBox {
+              border: 1px solid #D1AE6C;
+              background-color: #D1AE6C;
+
+              .valueWrapper {
+                color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+    &--tamanho {
+      .skuSelectorInternalBox {
+        width: 40px;
+        height: 40px;
+        background: #eee;
+        .valueWrapper {
+          font-size: 14px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}

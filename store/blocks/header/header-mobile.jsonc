@@ -1,0 +1,54 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": ["sticky-layout#header-mobile"]
+  },
+  "sticky-layout#header-mobile": {
+    "children": ["flex-layout.row#header-mobile"],
+    "props": {
+      "blockClass": ["header", "header-mobile"]
+    }
+  },
+  "flex-layout.row#header-mobile": {
+    "children": [
+      "flex-layout.row#header-mobile-drawer-search",
+      "logo#mobile",
+      "flex-layout.row#header-mobile-login-minicart"
+    ],
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "horizontalAlign": "between",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header-mobile"
+    }
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://onlauri.vteximg.com.br/arquivos/logo.png?v=637557571825430000",
+      "width": 102
+    }
+  },
+  "flex-layout.row#header-mobile-drawer-search": {
+    "children": ["drawer#header", "disclosure-layout#header-search"],
+    "props": {
+      "colSizing": "auto",
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header-mobile-drawer-search"
+    }
+  },
+  "flex-layout.row#header-mobile-login-minicart": {
+    "children": ["menu-item#header-favoritos", "login", "minicart.v2"],
+    "props": {
+      "colSizing": "auto",
+      "verticalAlign": "middle",
+      "horizontalAlign": "right",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "header-mobile-login-minicart"
+    }
+  }
+}

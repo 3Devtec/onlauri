@@ -1,0 +1,37 @@
+{
+  "my-account-link.wishlist-link": {
+    "props": {
+      "label": "Favoritos"
+    }
+  },
+  "my-account-page.wishlist-page": {
+    "props": {
+      "title": "Favoritos"
+    },
+    "children": ["list-context.wishlist"]
+  },
+  "store.wishlist": {
+    "blocks": ["list-context.wishlist"]
+  },
+  "list-context.wishlist": {
+    "blocks": ["product-summary.shelf#default"],
+    "children": ["list-context-renderer#wishlist"]
+  },
+  "list-context-renderer#wishlist": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": ["wishlist", "row"]
+    }
+  },
+  "flex-layout.row#add-to-wishlist": {
+    "children": ["add-to-list-btn"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "right",
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": "add-to-wishlist"
+    }
+  }
+}

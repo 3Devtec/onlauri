@@ -1,0 +1,37 @@
+.styledLinkContent--footer-menu {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.36px;
+}
+
+@media (max-width: 1024px) {
+  .menuItem--footer-menu-mobile {
+    margin-bottom: 22px;
+    .styledLinkContainer {
+      padding: 5px 0;
+      .styledLinkContent--footer-menu-mobile-title {
+        font-size: 16px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+      .accordionIcon--footer-menu-mobile {
+        margin: 0;
+        content: '';
+        font-size: 0;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        border-right: 1px solid var(--ui-neutrals-black);
+        border-bottom: 1px solid var(--ui-neutrals-black);
+        &--isClosed {
+          transform: rotate(45deg);
+        }
+        &--isOpen {
+          margin-top: 5px;
+          transform: rotate(-135deg);
+        }
+      }
+    }
+  }
+}

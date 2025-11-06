@@ -1,0 +1,185 @@
+.searchResultContainer {
+  padding: 0 !important;
+  max-width: 100% !important;
+  .filters--layout {
+    .filterPopupButton {
+      .filterPopupTitle {
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+      .filterPopupArrowIcon {
+        top: 0px;
+        padding: 0;
+        width: 10px;
+        height: 6px;
+        margin-left: 12px;
+        position: relative;
+        vertical-align: middle;
+        background-position: -614px -59px;
+        background-image: url(https://onlauri.vteximg.com.br/arquivos/onlauri-sprite-86662df715fc6b42c8c264acab373597.png);
+        .filterIcon {
+          display: none;
+        }
+      }
+    }
+  }
+  .orderByOptionsContainer {
+    z-index: 999;
+  }
+  .orderByButton {
+    background: #fafafa;
+    .filterPopupTitle {
+      .orderByText {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: var(--brand-primary);
+      }
+    }
+    .filterPopupArrowIcon {
+      top: 0px;
+      padding: 0;
+      width: 10px;
+      height: 6px;
+      margin-left: 12px;
+      position: relative;
+      vertical-align: middle;
+      background-position: -614px -59px;
+      background-image: url(https://onlauri.vteximg.com.br/arquivos/onlauri-sprite-86662df715fc6b42c8c264acab373597.png);
+      .caretIcon {
+        display: none;
+      }
+    }
+  }
+  .galleryLayoutSwitcher {
+    .galleryLayoutOptionButton {
+      :global(.vtex-store-icons-0-x-inlineGridIcon) {
+        background-image: url(https://onlauri.vteximg.com.br/arquivos/onlauri-sprite-86662df715fc6b42c8c264acab373597.png);
+        background-position: -239px -98px;
+        width: 26px;
+        height: 20px;
+        :first-child {
+          display: none;
+        }
+      }
+      :global(.vtex-store-icons-0-x-gridIcon) {
+        background-image: url(https://onlauri.vteximg.com.br/arquivos/onlauri-sprite-86662df715fc6b42c8c264acab373597.png);
+        background-position: -175px -98px;
+        width: 33px;
+        height: 20px;
+        :first-child {
+          display: none;
+        }
+      }
+    }
+  }
+  .gallery {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--container-width);
+    .galleryItem {
+      padding: 0 5px;
+    }
+  }
+  .buttonShowMore {
+    :global(.vtex-button) {
+      height: 43px;
+      margin: 20px 0;
+      padding: 0 20px;
+      :global(.vtex-button__label) {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .sidebar {
+    width: 20rem;
+  }
+}
+
+.sidebar {
+  .accordionFilter {
+    .filterAccordionBreadcrumbs {
+      height: 44px;
+      padding: 0 20px;
+      background-color: var(--brand-secondary);
+      .filterBreadcrumbsText {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--ui-neutrals-white);
+      }
+    }
+    .accordionFilterContainer {
+      padding: 0;
+      .accordionFilterItem {
+        width: 100%;
+        border: none;
+        display: flex;
+        padding: 0 20px;
+        min-height: 33px;
+        align-items: center;
+        .accordionFilterContent {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          .accordionFilterItemTitle {
+            font-size: 16.8px;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+          .accordionFilterItemTag {
+            display: none;
+          }
+        }
+      }
+    }
+    .accordionFilterOpen {
+      border: none !important;
+      padding: 10px 20px;
+      .filterAccordionItemBox {
+        padding: 0;
+        border: none;
+        min-height: 33px;
+        :global(.vtex-checkbox__line-container) {
+          :global(.vtex-checkbox__container) {
+            :global(.vtex-checkbox__inner-container) {
+              border-radius: 0;
+              border: 1px solid var(--brand-primary);
+            }
+          }
+          :global(.vtex-checkbox__label) {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+  .closeIconButton {
+    top: 8px;
+    padding: 0 20px;
+    .closeIcon {
+      width: 24px;
+      height: 24px;
+      color: var(--ui-neutrals-white);
+    }
+  }
+  .filterApplyButtonWrapper {
+    :global(.vtex-button) {
+      border-color: var(--brand-secondary);
+      background-color: var(--brand-secondary);
+      :global(.vtex-button__label) {
+        color: var(--ui-neutrals-white);
+      }
+    }
+  }
+}

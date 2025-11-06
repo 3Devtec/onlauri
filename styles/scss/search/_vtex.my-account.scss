@@ -1,0 +1,9 @@
+:global(.vtex-search-result-3-x-accordionFilter .ReactCollapse--content .pl8) {
+  padding-left: 0;
+}
+
+:global(
+    .vtex-flex-layout-0-x-flexColChild--product-summary-available
+  ):nth-child(3) {
+  height: auto !important;
+}

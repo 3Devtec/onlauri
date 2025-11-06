@@ -1,0 +1,105 @@
+{
+  // footer menu desktop 1
+  "flex-layout.col#footer-desktop-menu-1": {
+    "title": "Container - Menu 1",
+    "children": [
+      "rich-text#footer-menu-title-1",
+      "vtex.menu@2.x:menu#footer-menu-1"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "footer-desktop-menus"
+    }
+  },
+  "rich-text#footer-menu-title-1": {
+    "title": "Title - Menu 1",
+    "props": {
+      "text": "INSTITUCIONAL",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-1": {
+    "title": "Menu itens - Menu 1",
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-quem-somos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/quem-somos",
+            "noFollow": false,
+            "tagTitle": "Quem somos",
+            "text": "Quem somos"
+          }
+        },
+        {
+          "id": "menu-item-nossas-lojas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/nossas-lojas",
+            "noFollow": false,
+            "tagTitle": "Nossas lojas",
+            "text": "Nossas lojas"
+          }
+        },
+        {
+          "id": "menu-item-politica-de-privacidade",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politica-de-privacidade",
+            "noFollow": false,
+            "tagTitle": "Política de privacidade",
+            "text": "Política de privacidade"
+          }
+        },
+        {
+          "id": "menu-item-politica-de-seguranca",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politica-de-seguranca",
+            "noFollow": false,
+            "tagTitle": "Política de Segurança",
+            "text": "Política de Segurança"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    }
+  },
+  // mobile
+  "menu-item#footer-menu-1": {
+    "title": "Menu 1",
+    "props": {
+      "id": "menu-item-footer-menu-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "INSTITUCIONAL",
+        "text": "INSTITUCIONAL"
+      },
+      "blockClass": ["footer-menu-mobile", "footer-menu-mobile-title"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-menu-1"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-menu-1": {
+    "children": ["vtex.menu@2.x:menu#footer-menu-1"],
+    "props": {
+      "blockClass": "submenu-footer"
+    }
+  }
+}

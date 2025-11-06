@@ -1,0 +1,92 @@
+{
+  "toggle-layout#pdp-shelf-1": {
+    "title": "Toggle - Shelf 1",
+    "children": ["flex-layout.row#pdp-shelf-1"]
+  },
+  "flex-layout.row#pdp-shelf-1": {
+    "children": ["flex-layout.col#pdp-shelf-1"],
+    "props": {
+      "blockClass": ["pdp-container", "pdp-shelf", "pdp-shelf-container"]
+    }
+  },
+  "flex-layout.col#pdp-shelf-1": {
+    "children": [
+      "rich-text#pdp-shelf-1",
+      "list-context.product-list#default-shelf"
+    ],
+    "props": {
+      "blockClass": "pdp-shelf"
+    }
+  },
+  "rich-text#pdp-shelf-1": {
+    "title": "Title - Shelf 1",
+    "props": {
+      "text": "### Aproveite e *compre junto*",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "pdp-shelf"]
+    }
+  },
+  "shelf.relatedProducts#pdp-shelf-1": {
+    "title": "Shelf 1",
+    "blocks": ["product-summary.shelf#default"],
+    "props": {
+      "recommendation": "buy",
+      "productList": {
+        "paginationDotsVisibility": "hidden",
+        "minItemsPerPage": 1.5,
+        "itemsPerPage": 4.5,
+        "showTitle": false,
+        "maxItems": 10,
+        "arrows": true
+      },
+      "blockClass": "pdp-shelf"
+    }
+  },
+  "toggle-layout#pdp-shelf-2": {
+    "title": "Toggle - Shelf 2",
+    "children": ["flex-layout.row#pdp-shelf-2"]
+  },
+  "flex-layout.row#pdp-shelf-2": {
+    "children": ["flex-layout.col#pdp-shelf-2"],
+    "props": {
+      "blockClass": ["pdp-container", "pdp-shelf", "pdp-shelf-container"]
+    }
+  },
+  "flex-layout.col#pdp-shelf-2": {
+    "children": [
+      "rich-text#pdp-shelf-2",
+      "shelf.relatedProducts#pdp-shelf-2"
+    ],
+    "props": {
+      "blockClass": "pdp-shelf"
+    }
+  },
+  "rich-text#pdp-shelf-2": {
+    "title": "Title - Shelf 2",
+    "props": {
+      "text": "### Produtos similares",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "pdp-shelf"]
+    }
+  },
+  "shelf.relatedProducts#pdp-shelf-2": {
+    "title": "Shelf 2",
+    "blocks": ["product-summary.shelf#default"],
+    "props": {
+      "recommendation": "similars",
+      "productList": {
+        "paginationDotsVisibility": "hidden",
+        "itemsPerPage": 4.7,
+        "minItemsPerPage": 1.5,
+        "showTitle": false,
+        "maxItems": 10,
+        "arrows": true,
+        "infinite": false,
+        "gap": "ph3"
+      },
+      "blockClass": "default-shelf"
+    }
+  }
+}

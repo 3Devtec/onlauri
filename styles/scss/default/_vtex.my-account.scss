@@ -1,0 +1,106 @@
+:global(.vtex-store__template),
+:global(.vtex-modal-layout-0-x-container),
+:global(.vtex-minicart-2-x-drawer),
+:global(.vtex-telemarketing-2-x-portalContainer),
+:global(.vtex-login-2-x-portalContainer),
+:global(.vtex-search-result-3-x-searchResultContainer),
+:global(.vtex-store-drawer-0-x-drawer),
+:global(.vtex-modal__confirmation),
+:root {
+  --brand-primary: #000;
+  --brand-secondary: #ec6659;
+  --brand-secondary-lighest: #d9d9d9;
+  --ui-neutrals-white: #fff;
+  --ui-neutrals-050: #f5f5f5;
+  --ui-neutrals-100: #ededed;
+  --ui-neutrals-200: #dddddd;
+  --ui-neutrals-300: #bababa;
+  --ui-neutrals-400: #999999;
+  --ui-neutrals-500: #707070;
+  --ui-neutrals-600: #555555;
+  --ui-neutrals-700: #4a4a4a;
+  --ui-neutrals-800: #333333;
+  --ui-neutrals-900: #242424;
+  --ui-neutrals-black: #000;
+  --ui-neutrals-dark: #212121;
+  --ui-neutrals-grey: #444;
+  --error: #e12d2d;
+  --warn: #f8e644;
+  --sucess: #39bc3e;
+  --font: 'Roboto';
+  --container-width: 1340px;
+  --default-border-radius: 50px;
+  --font-size-default: 16px;
+}
+
+:focus,
+:focus-visible {
+  outline: none;
+}
+
+:global(.t-heading-1) {
+  margin-top: 0;
+  line-height: 48px;
+}
+
+:global(.t-heading-2) {
+  margin-top: 0;
+  line-height: 40px;
+}
+
+:global(.t-heading-3) {
+  margin-top: 0;
+  line-height: 32px;
+}
+
+:global(.t-heading-4) {
+  margin-top: 0;
+  line-height: 32px;
+}
+
+:global(.t-heading-5) {
+  margin-top: 0;
+  line-height: 24px;
+}
+
+:global(.t-heading-6) {
+  margin-top: 0;
+  line-height: 24px;
+}
+
+@media (max-width: 1024px) {
+  :global(.t-heading-1) {
+    margin-top: 0;
+    font-size: 34px;
+    line-height: 40px;
+  }
+  :global(.t-heading-2) {
+    margin-top: 0;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  :global(.t-heading-3) {
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  :global(.t-heading-4) {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  :global(.t-heading-5) {
+    margin-top: 0;
+    font-size: 18px;
+  }
+}
+
+p {
+  margin-top: 0;
+  line-height: 24px;
+}
+
+:global(.vtex-button),
+button {
+  border-radius: 0;
+}

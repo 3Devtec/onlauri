@@ -1,0 +1,105 @@
+{
+  // footer menu desktop 2
+  "flex-layout.col#footer-desktop-menu-2": {
+    "title": "Container - Menu 2",
+    "children": [
+      "rich-text#footer-menu-title-2",
+      "vtex.menu@2.x:menu#footer-menu-2"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "footer-desktop-menus"
+    }
+  },
+  "rich-text#footer-menu-title-2": {
+    "title": "Title - Menu 2",
+    "props": {
+      "text": "SUPORTE",
+       "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "footer-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-menu-2": {
+    "title": "Menu itens - Menu 2",
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-trocas-e-devoluções",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/trocas-devolucoes",
+            "noFollow": false,
+            "tagTitle": "Trocas e devoluções",
+            "text": "Trocas e devoluções"
+          }
+        },
+        {
+          "id": "menu-item-entregas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/entregas",
+            "noFollow": false,
+            "tagTitle": "Entregas",
+            "text": "Entregas"
+          }
+        },
+        {
+          "id": "menu-item-meus-pedidos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/account#/orders",
+            "noFollow": false,
+            "tagTitle": "Meus Pedidos",
+            "text": "Meus Pedidos"
+          }
+        },
+        {
+          "id": "menu-item-fale-conosco",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/fale-conosco",
+            "noFollow": false,
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "footer-menu"
+    }
+  },
+  // mobile
+  "menu-item#footer-menu-2": {
+    "title": "Menu 2",
+    "props": {
+      "id": "menu-item-footer-menu-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "SUPORTE",
+        "text": "SUPORTE"
+      },
+      "blockClass": ["footer-menu-mobile", "footer-menu-mobile-title"]
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#footer-menu-2"]
+  },
+  "vtex.menu@2.x:submenu.accordion#footer-menu-2": {
+    "children": ["vtex.menu@2.x:menu#footer-menu-2"],
+    "props": {
+      "blockClass": "submenu-footer"
+    }
+  }
+}

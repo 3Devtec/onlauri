@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#footer-copyright": {
+    "title": "Copyright Row",
+    "children": ["rich-text#footer-desktop-copyright"],
+    "props": {
+      "blockClass": "footer-copyright"
+    }
+  },
+  "rich-text#footer-desktop-copyright": {
+    "title": "Texto - Copyright",
+    "props": {
+      "text": "Todos os direitos reservados. CNPJ: 40.734.699/0001-38 - Alameda Caiapós, 611 - CEP: 06460110, Tamboré Barueri - SP",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "footer-copyright"
+    }
+  }
+}

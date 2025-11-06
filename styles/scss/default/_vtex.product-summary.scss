@@ -1,0 +1,39 @@
+.container--default {
+  .nameContainer {
+    padding: 0;
+    margin: 8px 0;
+    justify-content: flex-start;
+    .productNameContainer {
+      text-align: left;
+      min-height: 36px;
+      .productBrand {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+      }
+      @media (max-width: 1024px) {
+        min-height: 55px;
+      }
+    }
+  }
+  .imageNormal {
+    z-index: 10 !important;
+  }
+  .hoverImage {
+    z-index: 11 !important;
+  }
+  .description {
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 16px;
+    color: var(--ui-neutrals-700);
+  }
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
+  .container--default {
+    max-width: 280px !important;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "login": {
+    "props": {
+      "hideIconLabel": true,
+      "showIconProfile": true,
+      "accountOptionLinks": [
+        {
+          "label": "Minha conta",
+          "path": "/account",
+          "cssClass": "accountOptionsSectionItem"
+        },
+        {
+          "label": "Meus endereços",
+          "path": "/account#/addresses",
+          "cssClass": "accountOptionsSectionItem"
+        },
+        {
+          "label": "Meus pedidos",
+          "path": "/account#/orders",
+          "cssClass": "accountOptionsSectionItem"
+        },
+        {
+          "label": "Meus favoritos",
+          "path": "/account#/wishlist",
+          "cssClass": "accountOptionsSectionItem"
+        }
+      ]
+    }
+  }
+}

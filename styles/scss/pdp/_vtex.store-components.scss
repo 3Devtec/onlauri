@@ -1,0 +1,40 @@
+.productImagesContainer {
+  .productImageTag {
+    max-height: inherit !important;
+  }
+  .swiperCaret {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--brand-primary);
+    .caretIcon {
+      width: 17px;
+      height: 18px;
+      color: var(--ui-neutrals-white);
+    }
+  }
+  .swiperPaginationClickable {
+    display: none;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--pdp-product-infos-col2) {
+  .productNameContainer {
+    margin-bottom: 5px;
+    .productBrand {
+      font-size: 22px;
+      line-height: 33px;
+      text-transform: uppercase;
+    }
+  }
+  .productDescriptionText {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: var(--brand-primary);
+  }
+}

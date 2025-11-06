@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "@vtex/prettier-config": "^1.0.0",
+    "@vtex/tsconfig": "^0.6.0",
+    "concurrently": "^9.1.0",
+    "eslint": "^8.43.0",
+    "eslint-config-vtex": "^15.0.0",
+    "eslint-config-vtex-react": "^9.0.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-vtex": "^2.2.0",
+    "husky": "^9.1.7",
+    "prettier": "^2.8.8",
+    "sass": "^1.82.0"
+  },
+  "scripts": {
+    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react:react --style compressed\" \"sass --watch --no-source-map styles/configs:styles/configs --style compressed\"",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}

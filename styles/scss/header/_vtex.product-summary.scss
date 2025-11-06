@@ -1,0 +1,26 @@
+.container--search-bar {
+  .nameContainer {
+    padding: 0;
+    margin-top: 10px;
+    .productNameContainer {
+      text-align: left;
+      .productBrand {
+        font-size: 14px;
+        color: #424242;
+        line-height: 15px;
+        display: block;
+        max-width: 160px;
+        margin: 0 auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+  }
+  .image {
+    max-height: 245px;
+    @media (max-width: 1366px) {
+      max-height: 225px;
+    }
+  }
+}

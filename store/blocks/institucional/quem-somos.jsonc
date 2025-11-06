@@ -1,0 +1,255 @@
+{
+  "store.custom#quem-somos": {
+    "blocks": ["flex-layout.row#quem-somos-container"]
+  },
+  "flex-layout.row#quem-somos-container": {
+    "children": ["flex-layout.col#quem-somos-container"],
+    "props": {
+      "blockClass": ["quem-somos-container", "template-institucional"]
+    }
+  },
+  "flex-layout.col#quem-somos-container": {
+    "children": [
+      "info-card#quem-somos-1",
+      "info-card#quem-somos-2",
+      "flex-layout.row#quem-somos-3",
+      "info-card#quem-somos-4",
+      "image#quem-somos-5",
+      "image#quem-somos-6",
+      "info-card#quem-somos-7",
+      "info-card#quem-somos-8",
+      "info-card#quem-somos-9",
+      "info-card#quem-somos-10",
+      "rich-text#quem-somos-11",
+      "image#quem-somos-12",
+      "flex-layout.row#quem-somos-13"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["quem-somos-container", "template-institucional"]
+    }
+  },
+  "info-card#quem-somos-1": {
+    "props": {
+      "id": "info-card-quem-somos-1",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "callToActionMode": "none",
+      "headline": "Nascida em São José do Rio Preto, a OnLauri é uma marca digital que contém lojas físicas para uma experiência incrível no nosso mundo real.",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-main-banner-desktop.png?v=638246743772100000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-main-banner-mobile.png?v=638246743766270000",
+      "blockClass": ["quem-somos", "quem-somos-1"]
+    }
+  },
+  "info-card#quem-somos-2": {
+    "props": {
+      "id": "info-card-quem-somos-2",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "headline": "Criada para dar **ACESSO** à moda de **QUALIDADE** com **PREÇO JUSTO**",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-melhor-versao-desktop.png?v=638246993830930000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-melhor-versao-mobile.png?v=638246993832330000",
+      "blockClass": ["quem-somos", "quem-somos-2"]
+    }
+  },
+  "flex-layout.row#quem-somos-3": {
+    "children": ["flex-layout.col#quem-somos-3"],
+    "props": { "blockClass": "quem-somos-3" }
+  },
+  "flex-layout.col#quem-somos-3": {
+    "children": [
+      "rich-text#quem-somos-3-1",
+      "image#quem-somos-3",
+      "rich-text#quem-somos-3-2"
+    ],
+    "props": { "blockClass": "quem-somos-3" }
+  },
+  "rich-text#quem-somos-3-1": {
+    "props": {
+      "text": "Empoderamos você para viver *TODAS* as histórias que quiser!",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "quem-somos-3-1"
+    }
+  },
+  "image#quem-somos-3": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/quem-somos-foto-3-desktop.png?v=638246743775200000",
+      "blockClass": "quem-somos-3"
+    }
+  },
+  "rich-text#quem-somos-3-2": {
+    "props": {
+      "text": "## FORMAS, AMOR E CORES \n\n A marca trabalha com coleções pensadas para mulheres modernas, joviais e sedutoras. Valorizando as curvas da brasileira, com cores vibrantes e estampas alegres.",
+      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "blockClass": "quem-somos-3-2"
+    }
+  },
+  "info-card#quem-somos-4": {
+    "props": {
+      "id": "info-card-quem-somos-4",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "headline": "## A PRATICIDADE QUE FUNCIONA",
+      "subhead": "experiência de compra **DESCOMPLICADA** \n\n **Na loja virtual e nas lojas físicas** \n\n **Entrega expresse preços justos** \n\n ![A PRATICIDADE QUE FUNCIONA](https://onlauri.vteximg.com.br/arquivos/quem-somos-logo-praticidade-desktop.png?v=638246743762670000)",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-mulher-praticidade-desktop.png?v=638247006690600000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-mulher-praticidade-mobile.png?v=638247006683270000",
+      "blockClass": ["quem-somos", "quem-somos-4"]
+    }
+  },
+  "image#quem-somos-5": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/quem-somos-nosso-mundo-real-desktop.png?v=638246743771470000",
+      "blockClass": "quem-somos-5"
+    }
+  },
+  "image#quem-somos-6": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/quem-somos-nosso-mundo-folhas-desktop.png?v=638246743781470000",
+      "blockClass": "quem-somos-6"
+    }
+  },
+  "info-card#quem-somos-7": {
+    "props": {
+      "id": "info-card-quem-somos-7",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "left",
+      "callToActionMode": "none",
+      "headline": "## EMBALAGEM RECICLÁVEL",
+      "subhead": "Nossa embalagem envelope é 100% reciclável. Ela ocupa muito menos espaço no carro, no caminhão ou na moto. Assim, conseguimos realizar mais entregas com bem menos viagens. O meio ambiente agradece!",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-reciclagem-desktop.png?v=638247057600500000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-reciclagem-mobile.png?v=638247057602230000",
+      "blockClass": ["quem-somos", "quem-somos-7"]
+    }
+  },
+  "info-card#quem-somos-8": {
+    "props": {
+      "id": "info-card-quem-somos-8",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textAlignment": "right",
+      "callToActionMode": "none",
+      "headline": "## ILUMINAÇÃO DE LED",
+      "subhead": "Nosso centro de distribuição e nossas lojas físicas são equipadas com lâmpadas de LED, que não contém materiais tóxicos, têm vida útil bem maior do que as lâmpadas convencionais e economizam até 80% de energia!",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-embalagem-reciclavel-desktop.png?v=638247888042500000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-embalagem-reciclavel-mobile.png?v=638247888042330000",
+      "blockClass": ["quem-somos", "quem-somos-8"]
+    }
+  },
+  "info-card#quem-somos-9": {
+    "props": {
+      "id": "info-card-quem-somos-9",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "left",
+      "callToActionMode": "none",
+      "headline": "## PISO DRENANTE PARA OBRAS SUSTENTÁVEIS",
+      "subhead": "No plano urbanístico, a OnLauri utiliza apenas piso ecológico em suas calçadas de lojas físicas: sua extensão é 100% permeável e não depende dos espaços entre as peças, atributo que atua como um reservatório, evitando enchentes e, consequentemente, impactos ambientais. Além disso, as pedras granuladas usadas na composição das peças ainda ajudam na purificação da água.",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-led-desktop.png?v=638247888048570000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-led-mobile.png?v=638247888047300000",
+      "blockClass": ["quem-somos", "quem-somos-9"]
+    }
+  },
+  "info-card#quem-somos-10": {
+    "props": {
+      "id": "info-card-quem-somos-10",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "textAlignment": "right",
+      "callToActionMode": "none",
+      "headline": "## AMADAS ÁRVORES",
+      "subhead": "A marca cuida e mantém árvores em nossas lojas e centro de distribuição. Coletoras de gás carbônico, reduzem os efeitos do aquecimento global, evitam ou reduzem a erosão do solo e contaminação da água, são responsáveis pela purificação do ar. Elas também contribuem para reduzir o estresse no trabalho. Além disso, são lindas, não é?",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-amadas-arvores-desktop.png?v=638247057588930000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-amadas-arvores-mobile.png?v=638247057590970000",
+      "blockClass": ["quem-somos", "quem-somos-10"]
+    }
+  },
+  "rich-text#quem-somos-11": {
+    "props": {
+      "text": "![A PRATICIDADE QUE FUNCIONA](https://onlauri.vteximg.com.br/arquivos/quem-somos-logo-praticidade-desktop.png?v=638246743762670000) \n\n ## nosso**time** \n\n ![A PRATICIDADE QUE FUNCIONA](https://onlauri.vteximg.com.br/arquivos/quem-somos-funcionarios-desktop.png?v=638246743771300000) \n\n Uma equipe multifuncional e colaborativa de mais de 200 pessoas contratadas direta e indiretamente, sendo **70% dela feminina**, trabalhando para dar acesso à moda e **consumo consciente**.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "quem-somos-11"
+    }
+  },
+  "image#quem-somos-12": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/quem-somos-spotify-desktop.png?v=638246743796530000",
+      "link": {
+        "url": "https://open.spotify.com/playlist/5ZCqMhRWUZhjpterhsK5ys?si=WqH3sX0pSvOk8LpGSqWpJA"
+      },
+      "blockClass": "quem-somos-12"
+    }
+  },
+  "flex-layout.row#quem-somos-13": {
+    "children": [
+      "info-card#quem-somos-13-1",
+      "info-card#quem-somos-13-2",
+      "info-card#quem-somos-13-3"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true,
+      "blockClass": "quem-somos-13"
+    }
+  },
+  "info-card#quem-somos-13-1": {
+    "props": {
+      "id": "info-card-quem-somos-13-1",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "headline": "### 3.2 milhões",
+      "subhead": "de seguidores",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-instagram-desktop.png?v=638247057594570000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-instagram-mobile.png?v=638247057595030000",
+      "blockClass": ["quem-somos", "quem-somos-13"]
+    }
+  },
+  "info-card#quem-somos-13-2": {
+    "props": {
+      "id": "info-card-quem-somos-13-2",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "headline": "### 97% das clientes",
+      "subhead": "amam e recomendam",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-heart-desktop.png?v=638247057589730000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-heart-mobile.png?v=638247057591300000",
+      "blockClass": ["quem-somos", "quem-somos-13"]
+    }
+  },
+  "info-card#quem-somos-13-3": {
+    "props": {
+      "id": "info-card-quem-somos-13-3",
+      "textMode": "rich-text",
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "textAlignment": "center",
+      "callToActionMode": "none",
+      "headline": "### ATÉ 60% OFF",
+      "subhead": "na seção outlet",
+      "imageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-outlet-desktop.png?v=638247906053170000",
+      "mobileImageUrl": "https://onlauri.vteximg.com.br/arquivos/quem-somos-icon-outlet-mobile.png?v=638247057598800000",
+      "blockClass": ["quem-somos", "quem-somos-13"]
+    }
+  }
+}

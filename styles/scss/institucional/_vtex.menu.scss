@@ -1,0 +1,14 @@
+.menuContainer--institucional-menu {
+  .menuItem {
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--ui-neutrals-200);
+    }
+    .styledLinkContainer {
+      padding: 16px;
+      .styledLinkContent {
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}

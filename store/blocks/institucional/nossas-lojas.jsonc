@@ -1,0 +1,89 @@
+{
+  "store.custom#nossas-lojas": {
+    "blocks": ["our-stores"]
+  },
+  "our-stores": {
+    "props": {
+      "isActive": true,
+      "stores": [
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-Redentora.jpg?v=638556035426400000",
+          "storeName": "Onlauri | São José do Rio Preto",
+          "storeAddress": "R. Penita, 3314 - Vila Redentora, São José do Rio Preto - SP",
+          "storeOpenTime": "Segunda a Sexta, 09h - 19h | Sábado, 09h - 17h",
+          "storeCep": "15015-820",
+          "storeEmail": "contato@onlauri.com.br",
+          "storeTelefone": "(17) 3042-6100",
+          "storeWhatsapp": "(17) 98129-1004",
+          "storeCta": "https://goo.gl/maps/rGKasHo2W4JNJEHs9"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-Jardins.jpg?v=638556052025200000",
+          "storeName": "Onlauri | Jardins - São Paulo",
+          "storeAddress": "Alameda Lorena, 2112 - Jardim Paulista, São Paulo - SP",
+          "storeOpenTime": "Segunda a Sexta, 10h - 20h | Sábado, 10h - 18h",
+          "storeCep": "01424-002",
+          "storeEmail": "contato@onlauri.com.br",
+          "storeTelefone": "(11) 5196-1050",
+          "storeWhatsapp": "(11) 99118-5830",
+          "storeCta": "https://goo.gl/maps/YoDXKeBRFDTnjUnK8"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-Campinas.jpg?v=638556053647570000",
+          "storeName": "Onlauri | Cambuí - Campinas",
+          "storeAddress": "R. Gen. Osório, 2112 - Cambuí, Campinas - SP",
+          "storeOpenTime": "Segunda a Sexta, 09h - 19h | Sábado, 09h - 18h",
+          "storeCep": "13025-155",
+          "storeEmail": "contato@onlauri.com.br",
+          "storeTelefone": "(19) 99753-9538",
+          "storeWhatsapp": "(19) 99753-9538",
+          "storeCta": "https://goo.gl/maps/mdbgd2znc16euvTs6"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-Palladium.jpg?v=638556056005930000",
+          "storeName": "Onlauri | Palladium - Curitiba",
+          "storeAddress": "Av. Presidente Kennedy, 4121 - Loja 2007 - Portão, Curitiba - PR",
+          "storeOpenTime": "Segunda a Sexta, 11h - 23h | Sábado, 10h - 22h | Domingo, 14h – 20h",
+          "storeCep": "80610-905",
+          "storeEmail": "contato@onlauri.com",
+          "storeTelefone": "(41) 3798-2557",
+          "storeWhatsapp": "(41) 9267-4996",
+          "storeCta": "https://www.google.com.br/maps/place/Onlauri%20%7C%20Port%C3%83%C2%A3o%20-%20Curitiba/@-25.4720918,-49.2911135,17z/data=!3m1!4b1!4m6!3m5!1s0x94dce3c7e32969ed:0xd3bcf7cec48f89ef!8m2!3d-25.4720967!4d-49.2866288!16s/g/11k9dm28mc?coh=164777&entry=tt"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-Jockey.jpg?v=638556056398030000",
+          "storeName": "Onlauri | Jockey Plaza - Curitiba",
+          "storeAddress": "Av Victor Ferreira do Amaral, 2633 – Tarumã – Loja 1195/96, Curitiba - PR",
+          "storeOpenTime": "Segunda a Sexta, 10h - 22h | Sábado, 10h - 22h | Domingo, 14h – 20h",
+          "storeCep": "82810-350",
+          "storeEmail": "contato@onlauri.com",
+          "storeTelefone": "(41) 3798-2559",
+          "storeWhatsapp": "(41) 9173-1844",
+          "storeCta": "https://goo.gl/maps/2P5bjmWaTT67AkKL8"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/NossasLojas-PB.jpg?v=638556056780000000",
+          "storeName": "Onlauri | Outlet Premium - Porto Belo",
+          "storeAddress": "BR 101, KM 159, Santa Luzia - Loja 1082,1083,1084, Porto Belo – SC",
+          "storeOpenTime": "Segunda a Domingo, 10h - 22h",
+          "storeCep": "88210-000",
+          "storeEmail": "contato@onlauri.com",
+          "storeTelefone": "(47) 3170-1985",
+          "storeWhatsapp": "(48) 9941-6569",
+          "storeCta": "https://goo.gl/maps/8hrhoA5qDoBLq1F69"
+        },
+        {
+          "storeImage": "https://onlauri.vteximg.com.br/arquivos/Alphaville.jpg?v=638702163525030000",
+          "storeName": "Onlauri | Alphaville",
+          "storeAddress": "Alameda Caiapós, 611 - Tamboré, Barueri - SP",
+          "storeOpenTime": "Segunda a Sexta, 10h - 18h | Sábado, 10h - 16h",
+          "storeCep": "06460-110",
+          "storeEmail": "contato@onlauri.com.br",
+          "storeTelefone": "(11) 91515-4863",
+          "storeWhatsapp": "(11) 91515-4863",
+          "storeCta": "https://maps.app.goo.gl/oHDuZTFMDqDR38b97"
+        }
+      ]
+    }
+  }
+}

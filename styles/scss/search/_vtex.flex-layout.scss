@@ -1,0 +1,27 @@
+.flexRow--search {
+  &-options {
+    margin-bottom: 15px;
+    background: #fafafa;
+  }
+}
+
+// .flexColChild--product-summary-available,
+.flexColChild--product-summary-available:last-child {
+  height: auto !important;
+}
+
+.flexRow--product-summary-available {
+  height: 100%;
+
+  .flexRowContent--product-summary-available {
+    height: 100%;
+    .stretchChildrenWidth {
+      height: 100%;
+      .flexCol--product-summary-available {
+        .flexColChild--product-summary-available:first-child {
+          height: auto !important;
+        }
+      }
+    }
+  }
+}

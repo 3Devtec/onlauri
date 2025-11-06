@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#pdp-buy-together": {
+    "children": ["buy-together"],
+    "props": {
+      "blockClass": "pdp-buy-together"
+    }
+  },
+  "buy-together": {
+    "props": {
+      "title": "COMPRE O LOOK",
+      "textButton": "COMPRAR LOOK COMPLETO",
+      "plusIcon": "true",
+      "equalIcon": "true"
+    }
+  }
+}

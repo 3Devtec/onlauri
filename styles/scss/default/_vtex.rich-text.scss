@@ -1,0 +1,65 @@
+.link {
+  color: currentColor;
+}
+
+.heading {
+  margin-top: 0;
+  &-level-1 {
+    line-height: 48px;
+  }
+  &-level-2 {
+    line-height: 40px;
+  }
+  &-level-3 {
+    line-height: 32px;
+  }
+  &-level-4 {
+    line-height: 32px;
+  }
+  &-level-5 {
+    line-height: 24px;
+  }
+  &-level-6 {
+    line-height: 24px;
+  }
+  @media (max-width: 1024px) {
+    &-level-1 {
+      font-size: 34px;
+      line-height: 40px;
+    }
+    &-level-2 {
+      font-size: 28px;
+      line-height: 32px;
+    }
+    &-level-3 {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    &-level-4 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &-level-5 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+
+.paragraph {
+  margin-top: 0;
+  line-height: 24px;
+}
+
+.heading--section-title {
+  .italic {
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container--section-title {
+    padding: 0 20px;
+  }
+}

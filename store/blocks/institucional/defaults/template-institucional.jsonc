@@ -1,0 +1,155 @@
+{
+  "store.custom#template-institucional": {
+    "blocks": ["flex-layout.row#template-institucional"]
+  },
+  "flex-layout.row#template-institucional": {
+    "title": "Institucional Template",
+    "children": [
+      "flex-layout.col#institucional-menu",
+      "flex-layout.col#institucional-content"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colSizing": "auto",
+      "blockClass": "template-institucional"
+    }
+  },
+  "flex-layout.col#institucional-menu": {
+    "title": "Institucional Menu Container",
+    "children": ["responsive-layout.desktop#institucional-menu"],
+    "props": {
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-menu"
+    }
+  },
+  "responsive-layout.desktop#institucional-menu": {
+    "children": [
+      "rich-text#institucional-menu",
+      "vtex.menu@2.x:menu#institucional-menu"
+    ]
+  },
+  "rich-text#institucional-menu": {
+    "title": "Institucional Menu Title",
+    "props": {
+      "text": "Institucional",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "institucional-menu-title"
+    }
+  },
+  "vtex.menu@2.x:menu#institucional-menu": {
+    "title": "Menu itens - Menu Institucional",
+    "props": {
+      "items": [
+        {
+          "id": "menu-item-institucional-quem-somos",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/quem-somos",
+            "noFollow": false,
+            "tagTitle": "Quem somos",
+            "text": "Quem somos"
+          }
+        },
+        {
+          "id": "menu-item-institucional-nossas-lojas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/nossas-lojas",
+            "noFollow": false,
+            "tagTitle": "Nossas Lojas",
+            "text": "Nossas Lojas"
+          }
+        },
+        {
+          "id": "menu-item-institucional-fale-conosco",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/fale-conosco",
+            "noFollow": false,
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        },
+        {
+          "id": "menu-item-institucional-politica-de-privacidade",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politica-de-privacidade",
+            "noFollow": false,
+            "tagTitle": "Política de privacidade",
+            "text": "Política de privacidade"
+          }
+        },
+        {
+          "id": "menu-item-institucional-politica-de-seguranca",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/politica-de-seguranca",
+            "noFollow": false,
+            "tagTitle": "Política de Segurança",
+            "text": "Política de Segurança"
+          }
+        },
+        {
+          "id": "menu-item-institucional-trocas-devolucoes",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/trocas-devolucoes",
+            "noFollow": false,
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        },
+        {
+          "id": "menu-item-institucional-entregas",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/institucional/entregas",
+            "noFollow": false,
+            "tagTitle": "Entregas",
+            "text": "Entregas"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "institucional-menu"
+    }
+  },
+  "flex-layout.col#institucional-content": {
+    "title": "Institucional Conteúdo Container",
+    "children": ["rich-text#institucional-content"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-content"
+    }
+  },
+  "rich-text#institucional-content": {
+    "title": "Institucional Conteúdo Texto",
+    "props": {
+      "text": "### Institucional \n\n Institucional",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "institucional-content"
+    }
+  }
+}

@@ -1,0 +1,378 @@
+.imageElementLink--quem-somos-12 {
+  font-size: 0;
+  .imageElement {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .infoCardContainer--quem-somos {
+    &-1 {
+      position: relative;
+      .infoCardTextContainer {
+        padding: 0;
+        position: absolute;
+        width: 100% !important;
+        .container {
+          padding: 0 40px 0 30px;
+          .heading,
+          .paragraph {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            color: var(--ui-neutrals-white);
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-2 {
+      display: flex;
+      margin-bottom: 30px;
+      flex-direction: column-reverse;
+      .infoCardTextContainer {
+        width: 100% !important;
+        .container {
+          padding: 0 40px 0 30px;
+          .heading,
+          .paragraph {
+            font-size: 30px;
+            font-weight: 300;
+            text-align: center;
+            color: var(--ui-neutrals-black);
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-4 {
+      margin: 30px 0;
+      position: relative;
+      .infoCardTextContainer {
+        right: 15%;
+        max-width: 360px;
+        padding: 40px 30px;
+        position: absolute;
+        border-radius: 15px;
+        background: #1f1f3d;
+        width: 100% !important;
+        .container {
+          padding: 0 10px;
+          .heading {
+            font-size: 35px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            color: var(--ui-neutrals-white);
+          }
+          .paragraph {
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--ui-neutrals-white);
+            .strong {
+              text-transform: uppercase;
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-7,
+    &-9 {
+      margin-bottom: 30px;
+      .infoCardTextContainer {
+        max-width: 600px;
+        width: auto !important;
+        .container {
+          width: 100%;
+          .heading {
+            font-size: 44px;
+            text-align: left;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+            font-size: 20px;
+            text-align: left;
+            font-weight: 300;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: auto !important;
+      }
+    }
+    &-8,
+    &-10 {
+      margin-bottom: 30px;
+      .infoCardTextContainer {
+        max-width: 600px;
+        width: auto !important;
+        .container {
+          width: 100%;
+          justify-content: flex-end;
+          .heading {
+            font-size: 44px;
+            text-align: right;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+            font-size: 20px;
+            font-weight: 300;
+            text-align: right;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: auto !important;
+      }
+    }
+    &-13 {
+      padding: 0;
+      display: flex;
+      background-color: #212121;
+      flex-direction: column-reverse;
+      .infoCardTextContainer {
+        padding: 0;
+        width: 100% !important;
+        .container {
+          width: 100%;
+          justify-content: center;
+          .wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .heading {
+              font-size: 39px;
+              text-align: center;
+              margin-bottom: 10px;
+              color: var(--ui-neutrals-white);
+            }
+            .paragraph {
+              width: 100%;
+              font-size: 20px;
+              font-weight: 300;
+              margin-bottom: 0;
+              text-align: center;
+              letter-spacing: 5px;
+              text-transform: uppercase;
+              color: var(--ui-neutrals-white);
+            }
+          }
+        }
+      }
+      .infoCardImageContainer {
+        display: flex;
+        align-items: center;
+        width: 100% !important;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .infoCardContainer--quem-somos {
+    display: flex;
+    flex-direction: column-reverse;
+    &-1 {
+      .infoCardTextContainer {
+        padding: 0;
+        width: 100% !important;
+        .container {
+          .heading,
+          .paragraph {
+            font-size: 21px;
+            font-weight: 700;
+            text-align: center;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-2 {
+      margin-bottom: 20px;
+      .infoCardTextContainer {
+        width: 100% !important;
+        .container {
+          .heading,
+          .paragraph {
+            font-size: 30px;
+            font-weight: 300;
+            text-align: center;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-4 {
+      margin: 30px 0;
+      .infoCardTextContainer {
+        right: 15%;
+        max-width: 360px;
+        padding: 40px 30px;
+        border-radius: 15px;
+        background: #1f1f3d;
+        width: 100% !important;
+        .container {
+          padding: 0 10px;
+          .heading {
+            font-size: 35px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            color: var(--ui-neutrals-white);
+          }
+          .paragraph {
+            font-size: 25px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--ui-neutrals-white);
+            .strong {
+              text-transform: uppercase;
+            }
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: 100% !important;
+        .infoCardImage {
+          width: 100%;
+        }
+      }
+    }
+    &-7,
+    &-9 {
+      margin-bottom: 30px;
+      .infoCardTextContainer {
+        max-width: 600px;
+        width: auto !important;
+        .container {
+          width: 100%;
+          .heading {
+            font-size: 44px;
+            line-height: 45px;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+            font-size: 20px;
+            font-weight: 300;
+            text-align: center;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: auto !important;
+      }
+    }
+    &-8,
+    &-10 {
+      margin-bottom: 30px;
+      .infoCardTextContainer {
+        max-width: 600px;
+        width: auto !important;
+        .container {
+          width: 100%;
+          justify-content: flex-end;
+          .heading {
+            font-size: 44px;
+            line-height: 45px;
+            text-align: center;
+            margin-bottom: 10px;
+          }
+          .paragraph {
+            font-size: 20px;
+            font-weight: 300;
+            text-align: center;
+          }
+        }
+      }
+      .infoCardImageContainer {
+        width: auto !important;
+      }
+    }
+    &-13 {
+      padding: 0;
+      display: flex;
+      background-color: #212121;
+      flex-direction: column-reverse;
+      .infoCardTextContainer {
+        padding: 0;
+        width: 100% !important;
+        .container {
+          width: 100%;
+          justify-content: center;
+          .wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            .heading {
+              font-size: 13px;
+              margin-bottom: 0;
+              line-height: 13px;
+              text-align: center;
+              color: var(--ui-neutrals-white);
+            }
+            .paragraph {
+              width: 100%;
+              font-size: 5px;
+              font-weight: 300;
+              margin-bottom: 0;
+              text-align: center;
+              letter-spacing: 1.5;
+              text-transform: uppercase;
+              color: var(--ui-neutrals-white);
+            }
+          }
+        }
+      }
+      .infoCardImageContainer {
+        display: flex;
+        align-items: center;
+        width: 100% !important;
+        justify-content: center;
+        .infoCardImage {
+          max-width: 30px;
+        }
+      }
+    }
+  }
+}

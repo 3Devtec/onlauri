@@ -1,0 +1,38 @@
+{
+  "store.custom#politica-de-privacidade": {
+    "blocks": ["flex-layout.row#template-politica-de-privacidade"]
+  },
+  "flex-layout.row#template-politica-de-privacidade": {
+    "title": "Institucional Template",
+    "children": [
+      "flex-layout.col#institucional-menu",
+      "flex-layout.col#politica-de-privacidade-content"
+    ],
+    "props": {
+      "colGap": 8,
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colSizing": "auto",
+      "blockClass": "template-institucional"
+    }
+  },
+  "flex-layout.col#politica-de-privacidade-content": {
+    "title": "Institucional Conteúdo Container",
+    "children": ["rich-text#politica-de-privacidade-content"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "blockClass": "institucional-content"
+    }
+  },
+  "rich-text#politica-de-privacidade-content": {
+    "title": "Institucional Conteúdo Título",
+    "props": {
+      "text": "Coleta de dados \n\n Quando você compra algum produto na nossa loja, como parte do processo de compra e venda, coletamos as informações pessoais que você nos fornece, tais como seu nome, endereço e e-mail. \n\n Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas. \n\n Marketing por e-mail (quando aplicável): Com sua permissão, podemos lhe enviar e-mails sobre nossa loja, novos produtos e outras atualizações. \n\n  Consentimento \n\n Quando você nos fornece as suas informações pessoais para completar uma transação, verificar seu cartão de crédito, fazer um pedido, providenciar uma entrega ou retornar uma compra, você está concordando com a nossa coleta e uso de informações pessoais apenas para esses fins específicos. \n\n Se pedirmos suas informações pessoais por uma razão secundária, como marketing, vamos pedir seu consentimento, ou te dar a oportunidade de dizer não. \n\n Como posso retirar o meu consentimento? \n\n Caso depois de fornecer seus dados você mude de ideia, você pode retirar o seu consentimento quando quiser e assim evitar que entremos em contato para obter ou divulgar informações. Entre em contato conosco através da nossa Central de Atendimento. \n\n  Divulgação \n\n Podemos divulgar suas informações pessoais se formos obrigados por lei a fazê-lo ou se você violar nossos Termos de serviço. \n\n  Serviços de Terceiros \n\n No geral, nossos fornecedores terceirizados irão coletar, usar e divulgar suas informações apenas na medida do necessário para permitir que eles realizem os serviços que eles nos fornecem. \n\n Entretanto, certos prestadores de serviços terceirizados, tais como gateways de pagamento e outros processadores de transações de pagamento, têm suas próprias políticas de privacidade em relação à informação que somos obrigados a fornecer para eles sobre transações relacionadas a compras. \n\n Para esses fornecedores, recomendamos que você leia suas políticas de privacidade para que você possa entender de que maneira suas informações pessoais serão usadas por esses fornecedores. \n\n Uma vez que você sair do site da nossa loja ou for redirecionado para um aplicativo ou site de terceiros, você não será mais regido por essa Política de privacidade ou pelos Termos de serviço do nosso site. \n\n  Links \n\n Quando você clicar em links na nossa loja, eles podem lhe direcionar para fora do nosso site. Não somos responsáveis pelas práticas de privacidade de outros sites e lhe incentivamos a ler as políticas de privacidade deles. \n\n  Segurança \n\n Para proteger suas informações pessoais, tomamos precauções e seguimos as melhores práticas da indústria para nos certificar que elas não sejam perdidas, usurpadas, acessadas, divulgadas, alteradas ou destruídas. \n\n Para você comprar tranquilo e com total segurança utilizamos um certificado de segurança, com reconhecimento mundial em segurança pela Internet. \n\n Não divulgamos ou comercializamos seus dados pessoais. Entendemos que essas informações foram fornecidas pela confiança em nossa empresa e que, cabe a nós, devolver à você o mesmo respeito. \n\n Suas informações são utilizadas somente por nós, para uma variedade de finalidades como conferir o pedido, facilitar preenchimento de pedido, fazer análise de perfis e estatísticas, melhoria das operações do site e envio de conteúdo, comunicados, materiais promocionais e informações. \n\n  Idade de Consentimento \n\n Ao usar esse site, você confirma que você é maior de idade em seu estado ou província de residência e que você nos deu seu consentimento para permitir que qualquer um dos seus dependentes menores de idade usem esse site. \n\n  Alterações na Política de Privacidade \n\n Reservamos o direito de modificar essa política de privacidade a qualquer momento. Portanto, por favor, leia-a com frequência. As alterações e esclarecimentos surtem efeito imediatamente após serem publicadas no site. Caso façamos alterações na política de privacidade, iremos notificá-lo sobre a atualização. Assim, você saberá quais informações coletamos, como as usamos, e sob que circunstâncias, caso aplicável, as utilizaremos e/ou divulgaremos.",
+      "textPosition": "LEFT",
+      "textAlignment": "LEFT",
+      "blockClass": "institucional-content"
+    }
+  }
+}

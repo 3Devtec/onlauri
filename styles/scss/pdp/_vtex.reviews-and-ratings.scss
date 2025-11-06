@@ -1,0 +1,20 @@
+.container {
+  .graphContent {
+    .graphText {
+      min-width: 70px;
+    }
+    .graphBarContainer {
+      background: var(--ui-neutrals-200);
+      .graphBar {
+        background: var(--brand-secondary);
+      }
+    }
+  }
+}
+
+.star {
+  color: var(--brand-secondary);
+  // &--filled {
+  //   color: var(--brand-secondary);
+  // }
+}

@@ -1,0 +1,389 @@
+{
+  "menu-item#header-roupas-categoria": {
+    "props": {
+      "id": "menu-item-roupas-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Roupas Por Categoria",
+        "text": "Roupas Por Categoria"
+      },
+      "blockClass": "header-desktop"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#roupas-categoria"]
+  },
+  "vtex.menu@2.x:submenu#roupas-categoria": {
+    "children": ["flex-layout.row#header-submenu-roupas-categoria"],
+    "props": {
+      "blockClass": "header-desktop"
+    }
+  },
+  "flex-layout.row#header-submenu-roupas-categoria": {
+    "children": [
+      "toggle-layout#header-submenu-roupas-categoria",
+      "image#header-submenu-roupas-categoria"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "header-submenu"
+    }
+  },
+  // submenu
+  "toggle-layout#header-submenu-roupas-categoria": {
+    "title": "Toggle - Coluna",
+    "children": ["vtex.menu@2.x:menu#header-submenu-roupas-categoria"]
+  },
+  "vtex.menu@2.x:menu#header-submenu-roupas-categoria": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": true,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria",
+            "noFollow": false,
+            "tagTitle": "Roupas Por Categoria",
+            "text": "Roupas Por Categoria"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/blazers-&-jaquetas",
+            "noFollow": false,
+            "tagTitle": "Blazers e jaquetas",
+            "text": "Blazers e jaquetas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/blusas",
+            "noFollow": false,
+            "tagTitle": "Blusas",
+            "text": "Blusas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/body",
+            "noFollow": false,
+            "tagTitle": "Body",
+            "text": "Body"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/calcas",
+            "noFollow": false,
+            "tagTitle": "Calças",
+            "text": "Calças"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/conjuntos",
+            "noFollow": false,
+            "tagTitle": "Conjuntos",
+            "text": "Conjuntos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/cropped",
+            "noFollow": false,
+            "tagTitle": "Croppeds",
+            "text": "Croppeds"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/jeans",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/macacoes",
+            "noFollow": false,
+            "tagTitle": "Macacão e Macaquinhos",
+            "text": "Macacão e Macaquinhos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/pijamas",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/saias",
+            "noFollow": false,
+            "tagTitle": "Saias",
+            "text": "Saias"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/shorts",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/tricot",
+            "noFollow": false,
+            "tagTitle": "Tricot",
+            "text": "Tricot"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/vestidos",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": "header-submenu"
+    }
+  },
+  // image
+  "image#header-submenu-roupas-categoria": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/431022/Menu-Roupas.jpg?v=638248666588100000",
+      "link": {
+        "url": "/"
+      },
+      "maxWidth": "360",
+      "maxHeight": "542",
+      "blockClass": "header-submenu"
+    }
+  },
+  // Menu mobile
+  "menu-item#header-drawer-roupas-categoria": {
+    "props": {
+      "id": "menu-item-header-drawer-roupas-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Roupas Por Categoria",
+        "text": "Roupas Por Categoria"
+      },
+      "blockClass": "header-drawer"
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#roupas-categoria"]
+  },
+  "vtex.menu@2.x:submenu.accordion#roupas-categoria": {
+    "children": ["vtex.menu@2.x:menu#header-submenu-roupas-categoria-mob"],
+    "props": {
+      "blockClass": "header-drawer"
+    }
+  },
+  "vtex.menu@2.x:menu#header-submenu-roupas-categoria-mob": {
+    "title": "Submenu",
+    "props": {
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/blazers-&-jaquetas",
+            "noFollow": false,
+            "tagTitle": "Blazers e jaquetas",
+            "text": "Blazers e jaquetas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/blusas",
+            "noFollow": false,
+            "tagTitle": "Blusas",
+            "text": "Blusas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/body",
+            "noFollow": false,
+            "tagTitle": "Body",
+            "text": "Body"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/calcas",
+            "noFollow": false,
+            "tagTitle": "Calças",
+            "text": "Calças"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/conjuntos",
+            "noFollow": false,
+            "tagTitle": "Conjuntos",
+            "text": "Conjuntos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/cropped",
+            "noFollow": false,
+            "tagTitle": "Croppeds",
+            "text": "Croppeds"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/jeans",
+            "noFollow": false,
+            "tagTitle": "Jeans",
+            "text": "Jeans"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/macacoes",
+            "noFollow": false,
+            "tagTitle": "Macacão e Macaquinhos",
+            "text": "Macacão e Macaquinhos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/pijamas",
+            "noFollow": false,
+            "tagTitle": "Pijamas",
+            "text": "Pijamas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/saias",
+            "noFollow": false,
+            "tagTitle": "Saias",
+            "text": "Saias"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/shorts",
+            "noFollow": false,
+            "tagTitle": "Shorts",
+            "text": "Shorts"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/tricot",
+            "noFollow": false,
+            "tagTitle": "Tricot",
+            "text": "Tricot"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/roupas-por-categoria/vestidos",
+            "noFollow": false,
+            "tagTitle": "Vestidos",
+            "text": "Vestidos"
+          }
+        }
+      ],
+      "orientation": "vertical",
+      "blockClass": ["header-submenu", "header-submenu-mob"]
+    }
+  }
+}

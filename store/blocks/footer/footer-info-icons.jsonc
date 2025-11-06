@@ -1,0 +1,92 @@
+{
+  "flex-layout.row#footer-info-icons": {
+    "title": "Info Icons ",
+    "children": [
+      "list-context.image-list#footer-info-icons",
+      "list-context.image-list#footer-info-icons-2"
+    ],
+    "props": {
+      "colGap": 5,
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "blockClass": "footer-info-icons"
+    }
+  },
+  "list-context.image-list#footer-info-icons": {
+    "title": "Logos Pagamentos",
+    "children": ["list-context-renderer#footer-info-icons"],
+    "props": {
+      "height": 28,
+      "preload": false,
+      "images": [
+        {
+          "image": "assets/imgs/icons/payment-visa.svg",
+          "description": "Logo Visa"
+        },
+        {
+          "image": "assets/imgs/icons/payment-mastercard.svg",
+          "description": "Logo Mastercard"
+        },
+        {
+          "image": "assets/imgs/icons/payment-dinnersclub.svg",
+          "description": "Logo Dinners Club"
+        },
+        {
+          "image": "assets/imgs/icons/payment-americanexpress.svg",
+          "description": "Logo American Express"
+        },
+        {
+          "image": "assets/imgs/icons/payment-elo.svg",
+          "description": "Logo Elo"
+        },
+        {
+          "image": "assets/imgs/icons/payment-hipercard.svg",
+          "description": "Logo Hipercard"
+        },
+        {
+          "image": "assets/imgs/icons/payment-hiper.svg",
+          "description": "Logo Hiper"
+        },
+        {
+          "image": "assets/imgs/icons/payment-boleto.svg",
+          "description": "Logo Boleto"
+        },
+        {
+          "image": "assets/imgs/icons/payment-pix.svg",
+          "description": "Logo Pix"
+        }
+      ],
+      "blockClass": "footer-info-icons"
+    }
+  },
+  "list-context.image-list#footer-info-icons-2": {
+    "title": "Logos Pagamentos",
+    "children": ["list-context-renderer#footer-info-icons"],
+    "props": {
+      "height": 42,
+      "preload": false,
+      "images": [
+        {
+          "image": "assets/imgs/icons/icon-logo.svg",
+          "description": "Logo Onlauri"
+        },
+        {
+          "image": "assets/imgs/icons/logo-vtex.svg",
+          "description": "Logo VTEX"
+        },
+        {
+          "image": "assets/imgs/icons/logo-trinto.svg",
+          "description": "Logo Trinto"
+        }
+      ],
+      "blockClass": "footer-info-icons"
+    }
+  },
+  "list-context-renderer#footer-info-icons": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": ["footer-row", "footer-info-icons"]
+    }
+  }
+}

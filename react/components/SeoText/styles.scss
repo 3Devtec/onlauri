@@ -1,0 +1,45 @@
+.seoText_container {
+  max-width: 1232px;
+  margin: 64px auto;
+  .seoText_title,
+  .seoText_readMore,
+  .seoText_readLess {
+    display: block;
+  }
+  .seoText_content {
+    .seoText_text {
+      height: max-content;
+    }
+    .seoText_text2 {
+      height: 0;
+      visibility: hidden;
+      &_show {
+        height: max-content;
+        visibility: visible;
+      }
+    }
+    .seoText_button {
+      display: flex;
+      justify-content: center;
+      .seoText_button_readMore,
+      .seoText_button_readLess {
+        height: 40px;
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 2px 24px;
+        line-height: 24px;
+        letter-spacing: 0.6px;
+        text-transform: lowercase;
+        color: var(--ui-neutrals-white);
+        background: var(--brand-primary-lightest);
+        border-radius: var(--default-border-radius);
+        border: 1px solid var(--brand-primary-lightest);
+        &:hover {
+          border-color: var(--brand-primary-light);
+          background-color: var(--brand-primary-light);
+        }
+      }
+    }
+  }
+}

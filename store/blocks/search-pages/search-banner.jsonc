@@ -1,0 +1,36 @@
+{
+  "toggle-layout#search-banner": {
+    "children": ["flex-layout.row#search-banner"]
+  },
+  "flex-layout.row#search-banner": {
+    "children": ["image#search-banner"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["search-banner", "search-container"]
+    }
+  },
+  "image#search-banner": {
+    "props": {
+      "alt": "PLP Banner",
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/990588/1920x200%20-%20Copia%20(29)%20-%20Copia%20-%20Copia.png?v=638654566252430000",
+      "blockClass": "search-banner"
+    }
+  },
+  "toggle-layout#search-banner-mobile": {
+    "children": ["flex-layout.row#search-banner-mob"]
+  },
+  "flex-layout.row#search-banner-mob": {
+    "children": ["image#search-banner-mobile"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["search-banner-mob", "search-container"]
+    }
+  },
+  "image#search-banner-mobile": {
+    "props": {
+      "alt": "PLP Banner",
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/990589/768x768%20-%20Copia%20(27)%20-%20Copia%20-%20Copia.png?v=638654567069600000",
+      "blockClass": "search-banner-mob"
+    }
+  }
+}

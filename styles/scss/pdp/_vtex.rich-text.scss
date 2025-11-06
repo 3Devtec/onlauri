@@ -1,0 +1,15 @@
+.paragraph--pdp {
+  &-disclosure {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+  }
+  &-exchanges-returns {
+    font-size: 12px;
+    .link {
+      text-decoration: none;
+      color: var(--brand-secondary);
+    }
+  }
+}

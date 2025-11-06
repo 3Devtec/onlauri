@@ -1,0 +1,19 @@
+{
+  "store.home": {
+    "title": "Home",
+    "blocks": [
+      "responsive-layout.mobile#home-navegar-categorias",
+      "flex-layout.row#home-main-banner",
+      "toggle-layout#home-benefits",
+      "__fold__.experimentalLazyAssets",
+      "responsive-layout.desktop#home-navegar-categorias",
+      "toggle-layout#home-destaques",
+      "toggle-layout#home-secondary-banner",
+      "toggle-layout#home-shelf-mais-vendidos",
+      "toggle-layout#home-compre-por-ocasiao",
+      "toggle-layout#home-shelf-preferidas",
+      "toggle-layout#home-reviews",
+      "toggle-layout#home-banner-nossas-lojas"
+    ]
+  }
+}

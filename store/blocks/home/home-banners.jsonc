@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#home-main-banner": {
+    "title": "Main Banner Container",
+    "children": ["list-context.media-list#home-main-banner"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["home-section", "home-main-banner"]
+    }
+  },
+  "list-context.media-list#home-main-banner": {
+    "children": ["slider-layout#banner-default"],
+    "props": {
+      "height": "auto",
+      "mediaList": [
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/998894/1920-natal.png?v=638687343568730000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/998897/mobilenatal.png?v=638687347372270000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/998893/1920-mimo.png?v=638687342930200000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/998896/mobilemimo.png?v=638687344994030000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/998895/1920-anonovo.png?v=638687344271300000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/998898/mobileanonovo.png?v=638687348022830000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/990586/app1920x422.png?v=638654042253100000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/990587/app768x768.png?v=638654042805770000"
+        },
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/999595/1920x422%20-%201.jpg?v=638690177552000000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/999596/768x768%20-%202.jpg?v=638690178204070000"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-default": {
+    "props": {
+      "infinite": true,
+      "itemsPerPage": 1,
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "banner-default"
+    }
+  },
+  "toggle-layout#home-secondary-banner": {
+    "title": "Toggle - Secondary Banner",
+    "children": ["flex-layout.row#home-secondary-banner"]
+  },
+  "flex-layout.row#home-secondary-banner": {
+    "title": "Home Secondary Banner Container",
+    "children": ["list-context.media-list#home-secondary-banner"],
+    "props": {
+      "blockClass": ["home-section", "home-secondary-banner"]
+    }
+  },
+  "list-context.media-list#home-secondary-banner": {
+    "children": ["slider-layout#banner-default"],
+    "props": {
+      "height": "auto",
+      "mediaList": [
+        {
+          "image": "https://onlauri.vteximg.com.br/arquivos/ids/990594/1340X300%20-%20Looks%20Trabalho.jpg?v=638654787973500000",
+          "mobileImage": "https://onlauri.vteximg.com.br/arquivos/ids/920084/768x768%20-%20Mobile.png?v=638617907394230000"
+        }
+      ]
+    }
+  },
+  "media#home-secondary-banner": {
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/990594/1340X300%20-%20Looks%20Trabalho.jpg?v=638654787973500000",
+      "blockClass": "home-secondary-banner"
+    }
+  },
+  "toggle-layout#home-banner-nossas-lojas": {
+    "title": "Toggle - Banner Nossas Lojas",
+    "children": ["flex-layout.row#home-banner-nossas-lojas"]
+  },
+  "flex-layout.row#home-banner-nossas-lojas": {
+    "children": ["flex-layout.col#home-banner-nossas-lojas"],
+    "props": {
+      "blockClass": ["home-section", "home-banner-nossas-lojas"]
+    }
+  },
+  "flex-layout.col#home-banner-nossas-lojas": {
+    "children": [
+      "rich-text#home-banner-nossas-lojas",
+      "media#home-banner-nossas-lojas"
+    ],
+    "props": {
+      "blockClass": ["home-section", "home-banner-nossas-lojas"]
+    }
+  },
+  "rich-text#home-banner-nossas-lojas": {
+    "title": "Title - Banner Nossas Lojas",
+    "props": {
+      "text": "### Conheça nossas lojas",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-banner-nossas-lojas"]
+    }
+  },
+  "media#home-banner-nossas-lojas": {
+    "title": "Banner Nossas Lojas",
+    "props": {
+      "src": "https://onlauri.vteximg.com.br/arquivos/ids/919962/loja-desk-06.png?v=638543114609130000",
+      "blockClass": "home-banner-nossas-lojas"
+    }
+  }
+}

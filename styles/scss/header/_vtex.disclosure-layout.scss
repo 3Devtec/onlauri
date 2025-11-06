@@ -1,0 +1,15 @@
+.trigger--header-search {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.content--header-search {
+  background-color: var(--ui-neutrals-white);
+  position: absolute;
+  margin-top: -1px;
+  width: 100%;
+  bottom: 0;
+  top: 100%;
+  left: 0;
+}

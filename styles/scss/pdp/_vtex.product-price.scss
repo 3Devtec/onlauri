@@ -1,0 +1,63 @@
+:global(.vtex-flex-layout-0-x-flexCol--pdp-product-infos-col2) {
+  .listPrice {
+    margin-bottom: 5px;
+    .listPriceValue {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16px;
+    }
+  }
+  .sellingPrice {
+    margin-bottom: 5px;
+    .sellingPriceValue {
+      font-size: 24px;
+      font-weight: 600;
+      color: var(--brand-secondary);
+    }
+    &--hasListPrice {
+      margin-right: 10px;
+    }
+  }
+  .installments {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 5px;
+    .installmentsNumber,
+    .installmentValue {
+      font-weight: 700;
+    }
+  }
+  .savings {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 5px;
+  }
+}
+
+.savings--pdp-images {
+  font-size: 14px;
+  padding: 3px 7px;
+  border-radius: 3px;
+  color: var(--ui-neutrals-white);
+  background-color: var(--brand-primary);
+}
+
+//mobile pdp cta flutuante
+@media(max-width: 768px) {
+:global(.vtex-flex-layout-0-x-flexRowContent--wrapper-button-floating) {
+  .sellingPrice {
+
+    .sellingPriceValue {
+      font-size: 23px;
+      font-weight: 600;
+      color: var(--brand-secondary);
+    }
+  }
+
+  .flexRow--pdp-prices-savings{
+    display: none;
+  }
+}
+}

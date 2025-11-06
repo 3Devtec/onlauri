@@ -1,0 +1,21 @@
+.drawerContent--header {
+  .drawerHeader {
+    width: 100%;
+    padding: 0 16px;
+  }
+  .childrenContainer {
+    width: 100%;
+  }
+}
+
+.openIconContainer--header {
+  padding: 0;
+  .menuIcon {
+    width: 19px;
+    height: 19px;
+  }
+}
+
+.closeIconButton {
+  padding: 8px 0;
+}

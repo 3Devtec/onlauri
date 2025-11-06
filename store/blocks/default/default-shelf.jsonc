@@ -1,0 +1,57 @@
+{
+  "toggle-layout#default-shelf": {
+    "title": "Toggle - Default Shelf",
+    "children": ["flex-layout.row#default-shelf"]
+  },
+  "flex-layout.row#default-shelf": {
+    "title": "Shelf",
+    "children": ["flex-layout.col#default-shelf"],
+    "props": { "blockClass": ["home-section", "default-shelf"] }
+  },
+  "flex-layout.col#default-shelf": {
+    "children": [
+      "rich-text#default-shelf",
+      "list-context.product-list#default-shelf"
+    ],
+    "props": { "rowGap": 0, "blockClass": "default-shelf" }
+  },
+  "rich-text#default-shelf": {
+    "title": "Title - Shelf",
+    "props": {
+      "text": "### Os mais procurados *da onlauri*",
+       "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "default-shelf"]
+    }
+  },
+  "list-context.product-list#default-shelf": {
+    "title": "Configurações - Shelf",
+    "blocks": ["product-summary.shelf#default"],
+    "children": ["slider-layout#default-shelf"],
+    "props": {
+      "maxItems": 10,
+      "hideUnavailableItems": false,
+      "blockClass": "default-shelf"
+    }
+  },
+  "slider-layout#default-shelf": {
+    "title": "Slider - Shelf",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "centerMode": {
+        "desktop": "to-the-left",
+        "tablet": "to-the-left",
+        "phone": "to-the-left"
+      },
+      // "centerModeSlidesGap": 5,
+      "blockClass": "default-shelf"
+    }
+  }
+}

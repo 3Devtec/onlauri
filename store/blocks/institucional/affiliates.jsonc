@@ -1,0 +1,5 @@
+{
+  "store.custom#affiliates": {
+    "blocks": ["affiliates-script"]
+  }
+}

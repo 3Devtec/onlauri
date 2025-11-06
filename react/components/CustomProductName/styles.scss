@@ -1,0 +1,11 @@
+.productNameContainer {
+  display: flex;
+  .productNameTitle {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+  }
+}

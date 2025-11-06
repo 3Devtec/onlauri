@@ -1,0 +1,160 @@
+.paragraph--institucional {
+  &-menu-title {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 16px;
+    text-transform: uppercase;
+  }
+  &-content {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6em;
+
+    .link {
+      color: var(--brand-secondary);
+    }
+  }
+}
+
+.list--institucional-content {
+  padding-left: 17px;
+  .listItem--institucional-content {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 2px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    &--quem-somos {
+      &-3 {
+        &-1 {
+          max-width: 470px;
+          .heading,
+          .paragraph {
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 45px;
+            text-transform: uppercase;
+            .italic {
+              color: #dc0000;
+              font-style: normal;
+            }
+          }
+        }
+        &-2 {
+          max-width: 546px;
+          .heading {
+            font-size: 44px;
+            color: #a70c7e;
+            font-weight: 700;
+            line-height: 45px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+          }
+          .paragraph {
+            font-size: 26px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: justify;
+          }
+        }
+      }
+      &-11 {
+        padding: 25px;
+        margin: 0 auto;
+        max-width: 959px;
+        min-height: 798px;
+        align-items: flex-start;
+        background-position: center;
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc5NTknIGhlaWdodD0nNzk4JyBmaWxsPSdub25lJz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGNsaXAtcnVsZT0nZXZlbm9kZCcgZD0nTTE1IDBDNi43MTYgMCAwIDYuNzE2IDAgMTV2NjA3YzAgOC4yODQgNi43MTYgMTUgMTUgMTVoMzQ3YzYzLjUxMyAwIDExNSA1MS40ODcgMTE1IDExNXY0Nmg1di00NmMwLTYzLjUxMyA1MS40ODctMTE1IDExNS0xMTVoMzQ3YzguMjg0IDAgMTUtNi43MTYgMTUtMTVWMTVjMC04LjI4NC02LjcxNi0xNS0xNS0xNUgxNXonIGZpbGw9JyMxRjFGM0QnLz48L3N2Zz4=')
+          no-repeat !important;
+        .heading {
+          font-size: 35px;
+          font-weight: 300;
+          line-height: normal;
+          margin-bottom: 10px;
+          text-transform: lowercase;
+          color: var(--ui-neutrals-white);
+        }
+        .paragraph {
+          padding: 0 20px;
+          font-size: 23px;
+          font-weight: 300;
+          margin-bottom: 0;
+          line-height: 30px;
+          font-style: normal;
+          color: var(--ui-neutrals-white);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    &--quem-somos {
+      &-3 {
+        &-1 {
+          .heading,
+          .paragraph {
+            font-size: 37px;
+            font-weight: 700;
+            line-height: 45px;
+            text-transform: uppercase;
+            .italic {
+              color: #dc0000;
+              font-style: normal;
+            }
+          }
+        }
+        &-2 {
+          .heading {
+            font-size: 30px;
+            color: #a70c7e;
+            font-weight: 700;
+            line-height: 45px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+          }
+          .paragraph {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+            text-align: justify;
+          }
+        }
+      }
+      &-11 {
+        padding: 25px;
+        margin: 0 auto;
+        min-height: 620px;
+        border-radius: 15px;
+        background-size: cover;
+        align-items: flex-start;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMjEnIGhlaWdodD0nNjM3JyBmaWxsPSdub25lJz48cGF0aCBmaWxsLXJ1bGU9J2V2ZW5vZGQnIGNsaXAtcnVsZT0nZXZlbm9kZCcgZD0nTTE1IDBDNi43MTYgMCAwIDYuNzE2IDAgMTV2NDc4LjQ4MmMwIDguMjg1IDYuNzE2IDE1IDE1IDE1aDI5LjY2M2M2My41MTMgMCAxMTUgNTEuNDg4IDExNSAxMTVWNjM3aDEuNjc0di0xMy41MThjMC02My41MTIgNTEuNDg3LTExNSAxMTUtMTE1SDMwNmM4LjI4NCAwIDE1LTYuNzE1IDE1LTE1VjE1YzAtOC4yODQtNi43MTYtMTUtMTUtMTVIMTV6JyBmaWxsPScjMUYxRjNEJy8+PC9zdmc+);
+        .heading {
+          font-size: 35px;
+          font-weight: 300;
+          line-height: normal;
+          margin-bottom: 10px;
+          text-transform: lowercase;
+          color: var(--ui-neutrals-white);
+        }
+        .paragraph {
+          padding: 0 20px;
+          font-size: 23px;
+          font-weight: 300;
+          margin-bottom: 0;
+          line-height: 30px;
+          font-style: normal;
+          color: var(--ui-neutrals-white);
+        }
+      }
+    }
+  }
+}

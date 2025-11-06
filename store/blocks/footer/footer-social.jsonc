@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#footer-social": {
+    "children": ["flex-layout.col#footer-social"],
+    "props": {
+      "blockClass": "footer-social"
+    }
+  },
+  "flex-layout.col#footer-social": {
+    "children": [
+      "rich-text#footer-social",
+      "list-context.image-list#footer-social",
+      "rich-text#footer-apps",
+      "list-context.image-list#footer-apps"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "footer-social"
+    }
+  },
+  "rich-text#footer-social": {
+    "title": "Title - Menu Social",
+    "props": {
+      "text": "SIGA NOSSOS CANAIS",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["footer-menu-title", "footer-social"]
+    }
+  },
+  "list-context.image-list#footer-social": {
+    "title": "Logos Pagamentos",
+    "children": ["list-context-renderer#footer-social"],
+    "props": {
+      "height": 31,
+      "preload": false,
+      "images": [
+        {
+          "image": "assets/imgs/icons/icon-instagram.png",
+          "link": { "url": "https://www.instagram.com/onlauri" },
+          "description": "Logo Instagram"
+        },
+        {
+          "image": "assets/imgs/icons/icon-facebook.png",
+          "link": { "url": "https://www.facebook.com/onlauri" },
+          "description": "Logo Facebook"
+        },
+        {
+          "image": "assets/imgs/icons/icon-tiktok.png",
+          "link": { "url": "https://www.tiktok.com/@onlauribr?lang=pt-BR" },
+          "description": "Logo TikTok"
+        },
+        {
+          "image": "assets/imgs/icons/icon-pinterest.png",
+          "link": { "url": "https://br.pinterest.com/onlauri/" },
+          "description": "Logo Pinterest"
+        }
+      ],
+      "blockClass": "footer-social"
+    }
+  },
+  "list-context-renderer#footer-social": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": ["footer-row", "footer-social"]
+    }
+  },
+  "rich-text#footer-apps": {
+    "title": "Title - Menu apps",
+    "props": {
+      "text": "BAIXE NOSSO APP",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["footer-menu-title", "footer-apps"]
+    }
+  },
+  "list-context.image-list#footer-apps": {
+    "title": "Logos Pagamentos",
+    "children": ["list-context-renderer#footer-social"],
+    "props": {
+      "height": 31,
+      "preload": false,
+      "images": [
+        {
+          "image": "assets/imgs/icons/icon-playstore.png",
+          "link": { "url": "" },
+          "description": "Logo PlayStore"
+        },
+        {
+          "image": "assets/imgs/icons/icon-appstore.png",
+          "link": { "url": "" },
+          "description": "Logo AppStore"
+        }
+      ],
+      "blockClass": "footer-social"
+    }
+  }
+}

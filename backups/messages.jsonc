@@ -1,0 +1,43 @@
+{
+  "args": {
+    "to": "pt-BR",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/ordenation.sort-by",
+        "targetMessage": "Ordenar por:",
+        "context": "vtex.search-result@3.x"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.orderby.title",
+        "targetMessage": "Ordenar por:",
+        "context": "vtex.search-result@3.x"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.filter-action.title",
+        "targetMessage": "Filtrar por",
+        "context": "vtex.search-result@3.x"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.show-more-button",
+        "targetMessage": "Ver mais",
+        "context": "vtex.search-result@3.x"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/search-result.show-previous-button",
+        "targetMessage": "Ver anteriores",
+        "context": "vtex.search-result@3.x"
+      },
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/skuSelector.seeMore",
+        "targetMessage": "+ {quantity}",
+        "context": "vtex.store-components@3.x"
+      }
+    ]
+  }
+}

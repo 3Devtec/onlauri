@@ -1,0 +1,56 @@
+{
+  "toggle-layout#home-benefits": {
+    "title": "Toggle - Benefits",
+    "children": ["flex-layout.row#home-benefits"]
+  },
+  "flex-layout.row#home-benefits": {
+    "title": "Benefits Container",
+    "children": ["list-context.info-card-list#home-benefits"],
+    "props": { "blockClass": ["home-section", "home-benefits"] }
+  },
+  "list-context.info-card-list#home-benefits": {
+    "title": "Lista de Beneficios",
+    "children": ["list-context-renderer#home-benefits"],
+    "props": {
+      "infoCards": [
+        {
+          "id": "home-benefits-1",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "headline": "Frete grátis Brasil",
+          "subhead": "confira as regras",
+          "callToActionMode": "none",
+          "imageUrl": "assets/imgs/icons/benefits-truck.svg"
+        },
+        {
+          "id": "home-benefits-2",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "headline": "5% de desconto",
+          "subhead": "comprando à vista no pix",
+          "callToActionMode": "none",
+          "imageUrl": "assets/imgs/icons/benefits-discount.svg"
+        },
+        {
+          "id": "home-benefits-3",
+          "isFullModeStyle": false,
+          "textPosition": "right",
+          "textAlignment": "center",
+          "headline": "Pague 6x sem juros",
+          "subhead": "ou até 12x fixas no cartão",
+          "callToActionMode": "none",
+          "imageUrl": "assets/imgs/icons/benefits-card.svg"
+        }
+      ]
+    }
+  },
+  "list-context-renderer#home-benefits": {
+    "props": {
+      "listElement": "div",
+      "itemElement": "div",
+      "blockClass": ["row", "home-benefits"]
+    }
+  }
+}

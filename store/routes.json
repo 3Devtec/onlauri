@@ -1,0 +1,26 @@
+{
+  "store.custom#quem-somos": {
+    "path": "/institucional/quem-somos"
+  },
+  "store.custom#nossas-lojas": {
+    "path": "/institucional/nossas-lojas"
+  },
+  "store.custom#fale-conosco": {
+    "path": "/institucional/fale-conosco"
+  },
+  "store.custom#politica-de-privacidade": {
+    "path": "/institucional/politica-de-privacidade"
+  },
+  "store.custom#politica-de-seguranca": {
+    "path": "/institucional/politica-de-seguranca"
+  },
+  "store.custom#trocas-devolucoes": {
+    "path": "/institucional/trocas-devolucoes"
+  },
+  "store.custom#entregas": {
+    "path": "/institucional/entregas"
+  },
+  "store.custom#affiliates": {
+    "path": "/loja"
+  }
+}

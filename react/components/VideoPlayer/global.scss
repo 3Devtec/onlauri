@@ -1,0 +1,16 @@
+.home-video-player--container {
+    width: 100%;
+
+    .home-video-player {
+        &--video {
+            width: 100%;
+            object-fit: cover;
+            height: 100%;
+
+            @media(max-width: 630px) {
+                height: 550px;
+                padding: 0 1rem;
+            }
+        }
+    }
+}

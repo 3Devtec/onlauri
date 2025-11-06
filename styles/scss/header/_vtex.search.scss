@@ -1,0 +1,44 @@
+.biggy-autocomplete {
+  top: 150px;
+  .history-and-top-wrapper {
+    margin: 0 auto;
+    font-family: var(--font);
+    max-width: var(--container-width);
+  }
+  .itemListItem {
+    font-family: var(--font);
+  }
+}
+
+@media (min-width: 1025px) {
+  .biggy-autocomplete {
+    padding: 20px 15%;
+    .itemList {
+      max-width: 25%;
+    }
+    .tileList {
+      border: none;
+      max-width: 75%;
+      .tileListTitle {
+        padding: 0;
+      }
+      .tileListList {
+        gap: 10px;
+      }
+    }
+    .tileListFooter,
+    .tileListSeeMore {
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.biggy-js-container--hidden {
+  top: 0;
+  opacity: 0;
+  padding: 0;
+  max-height: 0 !important;
+}

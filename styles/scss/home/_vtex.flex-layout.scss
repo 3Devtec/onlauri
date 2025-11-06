@@ -1,0 +1,27 @@
+.flexRow--home {
+  &-section {
+    @media (min-width: 1025px) {
+      margin-bottom: 50px;
+    }
+    @media (max-width: 1024px) {
+      margin-bottom: 20px;
+    }
+  }
+  &-navegar-categorias,
+  &-secondary-banner,
+  &-compre-por-ocasiao,
+  &-shelf-preferidas,
+  &-banner-nossas-lojas,
+  &-destaques {
+    @media (max-width: 1024px) {
+      :global(.vtex-store-components-3-x-container) {
+        padding: 0;
+      }
+    }
+  }
+  &-compre-por-ocasiao-desk-double {
+    .flexRowContent--home-compre-por-ocasiao-desk-double {
+      gap: 10px;
+    }
+  }
+}

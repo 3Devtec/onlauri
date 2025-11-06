@@ -1,0 +1,6 @@
+@forward './default/vtex.my-account';
+@forward './search/vtex.my-account';
+
+.cancelBtn, a[href*="cancel"] {
+  display: none;
+}

@@ -1,0 +1,36 @@
+{
+  // desktop
+  "flex-layout.row#footer-desktop-menus": {
+    "title": "Menus Footer - Container Desktop",
+    "children": [
+      "flex-layout.col#footer-desktop-menu-1",
+      "flex-layout.col#footer-desktop-menu-2",
+      "flex-layout.col#footer-desktop-menu-3",
+      "flex-layout.col#footer-social"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "footer-desktop-menus"
+    }
+  },
+  // mobile
+  "flex-layout.row#footer-mobile-menus": {
+    "title": "Menus Footer - Container Mobile",
+    "children": ["flex-layout.col#footer-mobile-menus"],
+    "props": {
+      "blockClass": "footer-menu-mobile"
+    }
+  },
+  "flex-layout.col#footer-mobile-menus": {
+    "children": [
+      "menu-item#footer-menu-1",
+      "menu-item#footer-menu-2",
+      "menu-item#footer-menu-3"
+    ],
+    "props": {
+      "blockClass": "footer-menu-mobile"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+:global(.vtex-search-result-3-x-galleryItem--grid) {
+  .container--default {
+    max-width: 100% !important;
+    .imageWrapper {
+      background: #fafafa;
+      .imageNormal {
+        max-height: 455px !important;
+      }
+    }
+  }
+}
+
+:global(.vtex-search-result-3-x-galleryItem--list) {
+  .container--default {
+    max-width: 100% !important;
+    .imageWrapper {
+      background: #fafafa;
+      .imageNormal {
+        max-height: 612px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "toggle-layout#home-destaques": {
+    "title": "Toggle - Destaques",
+    "children": ["vitrine-destaques-custom"]
+  },
+  "vitrine-destaques-custom": {
+    "children": [
+      "flex-layout.row#home-destaques",
+      "flex-layout.row#home-destaques-2"
+    ]
+  },
+  "flex-layout.row#home-destaques": {
+    "title": "Destaques COM video",
+    "children": ["flex-layout.col#home-destaques"],
+    "props": { "blockClass": ["home-section", "home-destaques"] }
+  },
+  "flex-layout.col#home-destaques": {
+    "children": [
+      "rich-text#home-destaques",
+      "flex-layout.row#home-destaques-content"
+    ],
+    "props": { "blockClass": ["home-section", "home-destaques"] }
+  },
+  "rich-text#home-destaques": {
+    "title": "Title - Destaques",
+    "props": {
+      "text": "### Peças em Destaque",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-destaques"]
+    }
+  },
+  "flex-layout.row#home-destaques-content": {
+    "children": [
+      "video-player#home",
+      "list-context.product-list#home-destaques"
+    ],
+    "props": { "blockClass": "home-destaques-content" }
+  },
+  "video-player#home": {
+    "props": {
+      "videoUrl": "https://download-video-ak.vimeocdn.com/v3-1/playback/0f5025cb-e89f-457a-9f5b-d1d41ab89daa/c08cffa9-9bc3d7d0?__token__=st=1742933397~exp=1742947797~acl=%2Fv3-1%2Fplayback%2F0f5025cb-e89f-457a-9f5b-d1d41ab89daa%2Fc08cffa9-9bc3d7d0%2A~hmac=2659e95b604a3c55b18b7d8113282fe3e81850b4f5add3e5e3040be535c7bc92&r=dXMtd2VzdDE%3D",
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "controls": false
+    }
+  },
+  "media#home-destaques--1": {
+    "props": {
+      "loop": true,
+      "muted": true,
+      "autoPlay": true,
+      "mediaType": "video",
+      "controlsType": "none",
+      "src": "https://download-video-ak.vimeocdn.com/v3-1/playback/0f5025cb-e89f-457a-9f5b-d1d41ab89daa/c08cffa9-9bc3d7d0?__token__=st=1742933397~exp=1742947797~acl=%2Fv3-1%2Fplayback%2F0f5025cb-e89f-457a-9f5b-d1d41ab89daa%2Fc08cffa9-9bc3d7d0%2A~hmac=2659e95b604a3c55b18b7d8113282fe3e81850b4f5add3e5e3040be535c7bc92&r=dXMtd2VzdDE%3D",
+      "blockClass": "home-destaques"
+    }
+  },
+  "list-context.product-list#home-destaques": {
+    "title": "Vitrine com video - Destaques",
+    "blocks": ["product-summary.shelf#default"],
+    "children": ["slider-layout#home-destaques"],
+    "props": {
+      "maxItems": 10,
+      "hideUnavailableItems": false,
+      "blockClass": "home-destaques"
+    }
+  },
+  "slider-layout#home-destaques": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never",
+      "centerMode": {
+        "desktop": "disabled",
+        "tablet": "to-the-left",
+        "mobile": "to-the-left"
+      },
+      "centerModeSlidesGap": 5,
+      "blockClass": "home-destaques"
+    }
+  },
+
+  // Vitrine sem video
+  "flex-layout.row#home-destaques-2": {
+    "title": "Destaques SEM video",
+    "children": ["flex-layout.col#home-destaques-2"],
+    "props": { "blockClass": ["home-section", "home-destaques"] }
+  },
+  "flex-layout.col#home-destaques-2": {
+    "children": [
+      "rich-text#home-destaques-2",
+      "flex-layout.row#home-destaques-content-2"
+    ],
+    "props": { "blockClass": ["home-section", "home-destaques"] }
+  },
+  "rich-text#home-destaques-2": {
+    "title": "Title - Destaques",
+    "props": {
+      "text": "### PEÇAS EM DESTAQUE",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": ["section-title", "home-destaques"]
+    }
+  },
+  "flex-layout.row#home-destaques-content-2": {
+    "children": [
+      "list-context.product-list#default-shelf"
+    ],
+    "props": { "blockClass": "home-destaques-content" }
+  }
+}

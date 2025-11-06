@@ -1,0 +1,77 @@
+{
+  "disclosure-layout#header-search": {
+    "title": "Search Bar",
+    "children": [
+      "disclosure-trigger#header-search",
+      "disclosure-content#header-search"
+    ],
+    "props": {
+      "blockClass": "header-search"
+    }
+  },
+  "disclosure-trigger#header-search": {
+    "children": ["menu-item#header-search"],
+    "props": {
+      "blockClass": "header-search"
+    }
+  },
+  "disclosure-content#header-search": {
+    "children": ["flex-layout.row#header-search-bar"],
+    "props": {
+      "blockClass": "header-search"
+    }
+  },
+  "menu-item#header-search": {
+    "title": "Btn - Search Bar",
+    "props": {
+      "id": "menu-item-header-search",
+      "type": "custom",
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 19,
+        "viewBox": "0 0 19 19"
+      },
+      "blockClass": "header-search"
+    }
+  },
+  "flex-layout.row#header-search-bar": {
+    "children": ["search-bar"],
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "center",
+      "blockClass": "header-search-bar"
+    }
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "placeholder": "O QUE DESEJA?",
+      "autocompleteFullWidth": true,
+      "openAutocompleteOnFocus": true,
+      "disableBlurAndTouchEndHandler": true,
+      "displayMode": "search-button",
+      "blockClass": "search-bar"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "props": {
+      "maxHistory": 5,
+      "maxTopSearches": 5,
+      "maxSuggestedTerms": 5,
+      "maxSuggestedProducts": 5,
+      "hideUnavailableItems": true
+    },
+    "blocks": ["product-summary.shelf#search-bar"]
+  },
+  "product-summary.shelf#search-bar": {
+    "children": ["product-summary-image#search-bar", "product-summary-name"],
+    "props": {
+      "blockClass": "search-bar"
+    }
+  },
+  "product-summary-image#search-bar": {
+    "props": {
+      "showBadge": false
+    }
+  }
+}

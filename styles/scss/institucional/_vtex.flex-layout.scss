@@ -1,0 +1,61 @@
+.flexRowContent--template-institucional {
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+.flexColChild--institucional-menu {
+  min-width: 240px;
+  padding: 16px 16px 0;
+  background-color: #f2f2f2;
+}
+
+.flexColChild--quem-somos-container:last-child {
+  width: 100%;
+}
+
+.flexRow--quem-somos-13 {
+  background: #212121;
+  .flexRowContent--quem-somos-13 {
+    .stretchChildrenWidth {
+      width: 100% !important;
+    }
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexCol--quem-somos-3 {
+    position: relative;
+    .flexColChild--quem-somos-3 {
+      &:first-child {
+        top: 10%;
+        left: 5%;
+        position: absolute;
+      }
+      &:last-child {
+        top: 80%;
+        right: 5%;
+        left: auto;
+        position: absolute;
+      }
+    }
+  }
+  .flexRow--quem-somos-13 {
+    padding: 32px 70px;
+    .flexRowContent--quem-somos-13 {
+      gap: 68px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexCol--quem-somos {
+    &-3 {
+      margin: 30px 0;
+    }
+  }
+  .flexRow--quem-somos {
+    &-13 {
+      padding: 10px 0;
+    }
+  }
+}
