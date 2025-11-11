@@ -145,7 +145,10 @@
     "props": {
       "horizontalAlign": "left",
       "preserveLayoutOnMobile": true,
-      "blockClass": ["pdp-sku-selector", "pdp-container-mob"]
+      "blockClass": [
+        "pdp-sku-selector", 
+        "pdp-container-mob"
+      ]
     }
   },
   "flex-layout.col#pdp-sku-selector": {
@@ -157,7 +160,9 @@
   "sku-selector": {
     "props": {
       "maxItems": 15,
-      "hideImpossibleCombinations": false
+      "hideImpossibleCombinations": true,
+      "disableUnavailableSelectOptions": false,
+      "initialSelection": "empty"
     }
   },
   "flex-layout.row#pdp-buy-btn": {
