@@ -160,7 +160,7 @@
   "sku-selector": {
     "props": {
       "maxItems": 15,
-      "initialSelection": "empty"
+      "hideImpossibleCombinations": false
     }
   },
   "flex-layout.row#pdp-buy-btn": {
