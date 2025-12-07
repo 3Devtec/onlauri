@@ -104,7 +104,8 @@
   "flex-layout.col#product-summary-available": {
     "children": [
       "flex-layout.row#product-summary-prices",
-      "flex-layout.row#product-sku-variants",
+      "product-summary-sku-selector",
+      // "flex-layout.row#product-sku-variants",
       "flex-layout.col#shelf-buy-btn",
       "countdown-collection-shelf"
     ],
@@ -112,6 +113,13 @@
       "blockClass": "product-summary-available"
     }
   },
+  "product-summary-sku-selector": {
+  "props":{
+    "showVariationsLabels": "none",
+    "visibleVariations": ["COR"],
+    "maxItems": 4
+  }
+},
   "flex-layout.row#product-summary-prices": {
     "children": ["flex-layout.col#product-summary-prices"],
     "props": {
