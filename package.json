@@ -1,24 +1,45 @@
 {
+  "name": "store",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint --ext js,jsx,ts,tsx .",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json}\"",
+    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react:react --style compressed\" \"sass --watch --no-source-map styles/configs:styles/configs --style compressed\"",
+    "prepare": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,graphql,gql}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
-    "@vtex/prettier-config": "^1.0.0",
+    "@vtex/prettier-config": "0.1.4",
     "@vtex/tsconfig": "^0.6.0",
     "concurrently": "^9.1.0",
-    "eslint": "^8.43.0",
-    "eslint-config-vtex": "^15.0.0",
+    "eslint": "7.12.1",
+    "eslint-config-vtex": "12.3.2",
     "eslint-config-vtex-react": "^9.0.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-vtex": "^2.2.0",
-    "husky": "^9.1.7",
-    "prettier": "^2.8.8",
-    "sass": "^1.82.0"
-  },
-  "scripts": {
-    "sass": "concurrently \"sass --watch --no-source-map styles/scss:styles/css --style compressed\" \"sass --watch --no-source-map react:react --style compressed\" \"sass --watch --no-source-map styles/configs:styles/configs --style compressed\"",
-    "prepare": "husky install"
+    "husky": "4.2.3",
+    "lint-staged": "10.1.1",
+    "prettier": "2.0.2",
+    "sass": "^1.82.0",
+    "typescript": "3.8.3"
   },
   "dependencies": {
     "yargs": "^17.7.2"

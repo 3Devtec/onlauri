@@ -6,8 +6,7 @@
       "flex-layout.row#search-options",
       "responsive-layout.desktop#home-navegar-categorias",
       "flex-layout.row#search-fetch-previous",
-      "search-content",
-      "flex-layout.row#search-fetch-more"
+      "search-content"
     ],
     "props": {
       "preventRouteChange": true,

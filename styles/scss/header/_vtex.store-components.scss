@@ -90,6 +90,7 @@
             height: 50px;
             top: 5px;
             left: 5px;
+            display: none;
           }
 
           .valueWrapper {
@@ -97,7 +98,7 @@
 
             &--unavailable {
               .skuSelectorItemImageValue {
-                opacity: .5;
+                opacity: 1;
               }
             }
 
