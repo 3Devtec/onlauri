@@ -117,7 +117,9 @@
     "props":{
       "visibleVariations": ["COR"],
       "maxItems": 4,
-      "displayMode": "select"
+      "displayMode": "select",
+      "showVariationsLabels": "none",
+      "showValueForVariation": "none"
     }
   },
   "flex-layout.row#product-summary-prices": {
