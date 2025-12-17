@@ -114,12 +114,12 @@
     }
   },
   "product-summary-sku-selector": {
-  "props":{
-    "showVariationsLabels": "none",
-    "visibleVariations": ["COR"],
-    "maxItems": 4
-  }
-},
+    "props":{
+      "visibleVariations": ["COR"],
+      "maxItems": 4,
+      "displayMode": "select"
+    }
+  },
   "flex-layout.row#product-summary-prices": {
     "children": ["flex-layout.col#product-summary-prices"],
     "props": {
@@ -162,7 +162,7 @@
   },
   "sku-selector#product-summary": {
     "props": {
-      "maxItems": 4,
+      "maxItems": 1,
       "visibleVariations": ["COR"],
       "showVariationsLabels": false
     }
