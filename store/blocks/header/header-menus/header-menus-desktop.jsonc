@@ -17,8 +17,8 @@
     "title": "Menu Desktop",
     "children": [
       "menu-item#header-roupas-categoria",
-      "menu-item#header-acessorios",
       "menu-item#header-por-ocasiao",
+      "menu-item#header-acessorios",
       "menu-item#header-fiore"
     ],
     "props": {

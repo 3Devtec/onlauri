@@ -131,8 +131,8 @@
     "children": [
       "menu-item#header-drawer-uteis",
       "menu-item#header-drawer-roupas-categoria",
-      "menu-item#header-drawer-acessorios",
       "menu-item#header-drawer-por-ocasiao",
+      "menu-item#header-drawer-acessorios",
       "menu-item#header-drawer-fiore"
     ],
     "props": {
