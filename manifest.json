@@ -1,7 +1,7 @@
 {
   "vendor": "onlauri",
   "name": "store",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "builders": {
     "docs": "0.x",
     "store": "0.x",
